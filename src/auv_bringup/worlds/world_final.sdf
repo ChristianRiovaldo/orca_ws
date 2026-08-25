@@ -1,0 +1,534 @@
+<sdf version='1.10'>
+  <world name='empty'>
+
+    <!-- ================= PHYSICS ================= -->
+    <physics name='1ms' type='ignored'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- ================= CORE PLUGINS ================= -->
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <plugin filename="libgz-sim-imu-system.so"
+            name="gz::sim::systems::Imu"/>
+
+    <plugin filename="gz-sim-buoyancy-system"
+            name="gz::sim::systems::Buoyancy">
+      <graded_buoyancy>
+        <default_density>1000</default_density>
+        <density_change>
+          <above_depth>0</above_depth>
+          <density>1</density>
+        </density_change>
+      </graded_buoyancy>
+      <enable>ORCA_V3</enable>
+    </plugin>
+
+    <!-- ================= ENVIRONMENT ================= -->
+    <gravity>0 0 -9.8</gravity>
+
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <light name='sun' type='directional'>
+      <pose>0 0 20 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- ================= KOLAM ================= -->
+    <model name="pool">
+      <static>true</static>
+      <link name="pool_link">
+
+        <collision name="floor">
+          <pose>11.5 0 -1.6 0 0 0</pose>
+          <geometry><box><size>25 16 0.2</size></box></geometry>
+        </collision>
+
+        <visual name="floor">
+          <pose>11.5 0 -1.6 0 0 0</pose>
+          <geometry><box><size>25 16 0.2</size></box></geometry>
+          <material>
+            <ambient>0.4 0.75 1.0 1.0</ambient>
+            <diffuse>0.45 0.80 1.0 1.0</diffuse>
+            <specular>0.2 0.5 0.8 1.0</specular>
+          </material>
+        </visual>
+
+        <collision name="wall_x1">
+          <pose>11.5 8 -0.8 0 0 0</pose>
+          <geometry><box><size>25 0.2 1.6</size></box></geometry>
+        </collision>
+
+        <collision name="wall_x2">
+          <pose>11.5 -8 -0.8 0 0 0</pose>
+          <geometry><box><size>25 0.2 1.6</size></box></geometry>
+        </collision>
+
+        <collision name="wall_y1">
+          <pose>24 0 -0.8 0 0 0</pose>
+          <geometry><box><size>0.2 16 1.6</size></box></geometry>
+        </collision>
+
+        <collision name="wall_y2">
+          <pose>-1 0 -0.8 0 0 0</pose>
+          <geometry><box><size>0.2 16 1.6</size></box></geometry>
+        </collision>
+
+      </link>
+    </model>
+
+    <!-- ================= GATE FINAL ================= -->
+    <!-- Merah gate dibuat lebih gelap -->
+    <model name="gate">
+      <pose>16 -1 -1.6 0 0 1.5708</pose>
+      <static>true</static>
+      <link name="link">
+
+        <!-- Kiri -->
+        <visual name="left_black_1">
+          <pose>-0.75 0 0.05 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.10</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="right_green_1">
+          <pose>-0.75 0 0.20 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.0 0.45 0.0 1.0</ambient>
+            <diffuse>0.0 0.75 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="left_black_2">
+          <pose>-0.75 0 0.40 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="right_green_2">
+          <pose>-0.75 0 0.60 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.0 0.45 0.0 1.0</ambient>
+            <diffuse>0.0 0.75 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="left_black_3">
+          <pose>-0.75 0 0.80 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="right_green_3">
+          <pose>-0.75 0 0.97 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.14</size></box></geometry>
+          <material>
+            <ambient>0.0 0.45 0.0 1.0</ambient>
+            <diffuse>0.0 0.75 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <!-- Kanan -->
+        <visual name="right_black_1">
+          <pose>0.75 0 0.05 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.10</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <!-- MERAH GATE -->
+        <visual name="left_red_1">
+          <pose>0.75 0 0.20 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.45 0.0 0.0 1.0</ambient>
+            <diffuse>0.65 0.0 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="right_black_2">
+          <pose>0.75 0 0.40 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="left_red_2">
+          <pose>0.75 0 0.60 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.45 0.0 0.0 1.0</ambient>
+            <diffuse>0.65 0.0 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="right_black_3">
+          <pose>0.75 0 0.80 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="left_red_3">
+          <pose>0.75 0 0.97 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.14</size></box></geometry>
+          <material>
+            <ambient>0.45 0.0 0.0 1.0</ambient>
+            <diffuse>0.65 0.0 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="top_bar">
+          <pose>0 0 1.04 0 0 0</pose>
+          <geometry><box><size>1.54 0.04 0.04</size></box></geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1.0</ambient>
+            <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          </material>
+        </visual>
+
+        <!-- ========== COLLISION GATE FINAL ========== -->
+
+        <collision name="left_black_1">
+          <pose>-0.75 0 0.05 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.10</size></box></geometry>
+        </collision>
+
+        <collision name="right_green_1">
+          <pose>-0.75 0 0.20 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="left_black_2">
+          <pose>-0.75 0 0.40 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="right_green_2">
+          <pose>-0.75 0 0.60 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="left_black_3">
+          <pose>-0.75 0 0.80 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="right_green_3">
+          <pose>-0.75 0 0.97 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.14</size></box></geometry>
+        </collision>
+
+        <!-- Kanan -->
+        <collision name="right_black_1">
+          <pose>0.75 0 0.05 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.10</size></box></geometry>
+        </collision>
+
+        <!-- MERAH GATE -->
+        <collision name="left_red_1">
+          <pose>0.75 0 0.20 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="right_black_2">
+          <pose>0.75 0 0.40 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="left_red_2">
+          <pose>0.75 0 0.60 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="right_black_3">
+          <pose>0.75 0 0.80 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.20</size></box></geometry>
+        </collision>
+
+        <collision name="left_red_3">
+          <pose>0.75 0 0.97 0 0 0</pose>
+          <geometry><box><size>0.04 0.04 0.14</size></box></geometry>
+        </collision>
+
+        <collision name="top_bar">
+          <pose>0 0 1.04 0 0 0</pose>
+          <geometry><box><size>1.54 0.04 0.04</size></box></geometry>
+        </collision>
+
+      </link>
+    </model>
+
+    <!-- ===================== OBSTACLE ===================== -->
+    <model name="obstacle">
+      <pose>6 0.1 -1.4 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="obstacle_visual">
+          <pose>0 0 0.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.075</radius>
+              <length>1.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.35 0.0 1.0</ambient>
+            <diffuse>1.0 0.4 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <collision name="obstacle_collision">
+          <pose>0 0 0.75 0 0 0</pose>
+          <geometry>
+            <box><size>0.15 0.15 1.5</size></box>
+          </geometry>
+        </collision>
+
+      </link>
+    </model>
+
+    <!-- ================= RED FLARE ================= -->
+    <!-- Merah flare dibuat sangat terang -->
+    <model name="red_flare">
+      <pose>11.5 2.5 -1.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="base_visual">
+          <pose>0 0 0.01 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.016</radius><length>0.02</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.15 0.15 1.0</ambient>
+            <diffuse>1.0 0.05 0.05 1.0</diffuse>
+            <specular>0.8 0.2 0.2 1.0</specular>
+          </material>
+        </visual>
+
+        <visual name="flare_visual">
+          <pose>0 0 0.40 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.01</radius><length>0.80</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.1 0.1 1.0</ambient>
+            <diffuse>1.0 0.0 0.0 1.0</diffuse>
+            <specular>1.0 0.4 0.4 1.0</specular>
+            <emissive>0.6 0.0 0.0 1.0</emissive>
+          </material>
+        </visual>
+
+        <visual name="ball_visual">
+          <pose>0 0 0.808 0 0 0</pose>
+          <geometry>
+            <sphere><radius>0.01</radius></sphere>
+          </geometry>
+          <material>
+            <ambient>1.0 1.0 1.0 1.0</ambient>
+            <diffuse>1.0 1.0 1.0 1.0</diffuse>
+            <specular>0.9 0.9 0.9 1.0</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- ================= YELLOW FLARE ================= -->
+    <model name="yellow_flare">
+      <pose>10 -2.0 -1.56 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="base_visual">
+          <pose>0 0 0.01 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.016</radius><length>0.02</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>0.7 0.6 0.0 1.0</ambient>
+            <diffuse>0.9 0.75 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+        <visual name="flare_visual">
+          <pose>0 0 0.40 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.01</radius><length>0.80</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>0.8 0.65 0.0 1.0</ambient>
+            <diffuse>1.0 0.80 0.0 1.0</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- ================= BLUE FLARE ================= -->
+    <!-- Biru flare dibuat terang neon -->
+    <model name="blue_flare">
+      <pose>13 -4 -1.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="base_visual">
+          <pose>0 0 0.01 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.016</radius><length>0.02</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.5 1.0 1.0</ambient>
+            <diffuse>0.1 0.6 1.0 1.0</diffuse>
+            <specular>0.4 0.6 1.0 1.0</specular>
+          </material>
+        </visual>
+
+        <visual name="flare_visual">
+          <pose>0 0 0.40 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.01</radius><length>0.80</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>0.15 0.55 1.0 1.0</ambient>
+            <diffuse>0.2 0.7 1.0 1.0</diffuse>
+            <specular>0.5 0.8 1.0 1.0</specular>
+            <emissive>0.0 0.2 0.5 1.0</emissive>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- ================= EMBER MERAH ================= -->
+    <!-- Ember merah dibuat matte dan lebih tua -->
+    <model name="bucket_red_1">
+      <pose>23 2 -1.56 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="bucket_visual">
+          <pose>0 0 0.155 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.30</radius>
+              <length>0.30</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.35 0.0 0.0 1.0</ambient>
+            <diffuse>0.55 0.0 0.0 1.0</diffuse>
+            <specular>0.05 0.05 0.05 1.0</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <model name="bucket_red_2">
+      <pose>23 0 -1.56 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="bucket_visual">
+          <pose>0 0 0.155 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.30</radius>
+              <length>0.30</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.35 0.0 0.0 1.0</ambient>
+            <diffuse>0.55 0.0 0.0 1.0</diffuse>
+            <specular>0.05 0.05 0.05 1.0</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <model name="bucket_red_3">
+      <pose>23 -1 -1.56 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="bucket_visual">
+          <pose>0 0 0.155 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.30</radius>
+              <length>0.30</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.35 0.0 0.0 1.0</ambient>
+            <diffuse>0.55 0.0 0.0 1.0</diffuse>
+            <specular>0.05 0.05 0.05 1.0</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- ================= EMBER BIRU ================= -->
+    <!-- Biru ember dibuat lebih gelap -->
+    <model name="bucket_blue">
+      <pose>23 1 -1.56 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+
+        <visual name="bucket_visual">
+          <pose>0 0 0.155 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.30</radius>
+              <length>0.30</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.0 0.08 0.35 1.0</ambient>
+            <diffuse>0.0 0.15 0.55 1.0</diffuse>
+            <specular>0.05 0.05 0.1 1.0</specular>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

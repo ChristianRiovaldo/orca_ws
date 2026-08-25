@@ -1,0 +1,16 @@
+src/mavpy/mavpy/attitude_node.py
+src/mavpy/mavpy/camera_final_sim.py
+src/mavpy/mavpy/camera_final.py
+src/mavpy/mavpy/camera_gate_node.py
+src/mavpy/mavpy/camera_qualification_sim.py
+src/mavpy/mavpy/communication_sim.py
+src/mavpy/mavpy/depth_node.py
+src/mavpy/mavpy/depth_sim.py
+src/mavpy/mavpy/final_sim.py
+src/mavpy/mavpy/final.py
+src/mavpy/mavpy/joystick.py
+src/mavpy/mavpy/proximity_node.py
+src/mavpy/mavpy/qualification_mission.py
+src/mavpy/mavpy/qualification_nembak.py
+src/mavpy/mavpy/qualification_sim.py
+src/mavpy/mavpy/test_pwm_respon.py

@@ -1,0 +1,29 @@
+{
+  "package_name": "orca_msgs",
+  "output_dir": "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_c/orca_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/FinalDetection.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/GateDetection.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaDepth.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaAttitude.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaProximity.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaControl.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/FlareSequence.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FinalDetection.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/GateDetection.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaDepth.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaAttitude.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaProximity.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaControl.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FlareSequence.idl"
+  ]
+}

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from orca_msgs/msg/FinalDetection.msg
+// generated code does not contain a copyright notice
+
+
+module orca_msgs {
+  module msg {
+    struct FinalDetection {
+      boolean detected;
+
+      string class_name;
+
+      float confidence;
+
+      float center_x;
+
+      float center_y;
+
+      float center_x_norm;
+
+      float bbox_width;
+
+      float bbox_height;
+
+      float bbox_area_ratio;
+
+      float distance;
+    };
+  };
+};

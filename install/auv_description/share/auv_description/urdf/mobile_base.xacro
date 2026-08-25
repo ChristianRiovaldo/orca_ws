@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+<link name="base_footprint"/>
+
+<link name="base_link">
+    <visual>
+        <geometry>
+            <mesh filename="package://auv_description/meshes/bodyOnly.dae" scale="1 1 1"/>
+        </geometry>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+        <geometry>
+            <box size="0.479 0.4 0.0523"/>
+        </geometry>
+        <origin xyz="0.0 0.0 0.06" rpy="0.0 0.0 0.0"/>
+    </collision>
+    <xacro:body_inertia/>
+</link>
+
+<xacro:macro name="CCW_thruster_link" params="prefix o_xyz o_rpy">
+    <link name="thruster_${prefix}_link">
+    <visual>
+        <geometry>
+            <mesh filename="package://auv_description/meshes/T200-CCW.dae" scale="1 1 1"/>
+        </geometry>
+        <origin xyz="${o_xyz}" rpy="${o_rpy}"/>
+    </visual>
+    <xacro:thruster_inertia/>
+</link>
+</xacro:macro>
+
+<xacro:macro name="CW_thruster_link" params="prefix o_xyz o_rpy">
+    <link name="thruster_${prefix}_link">
+    <visual>
+        <geometry>
+            <mesh filename="package://auv_description/meshes/T200-CW.dae" scale="1 1 1"/>
+        </geometry>
+        <origin xyz="${o_xyz}" rpy="${o_rpy}"/>
+    </visual>
+    <xacro:thruster_inertia/>
+</link>
+</xacro:macro>
+
+<xacro:CCW_thruster_link prefix="1" o_xyz="0 0 0" o_rpy="0 0 0"/>
+<xacro:CCW_thruster_link prefix="2" o_xyz="0 0 0" o_rpy="0 0 0"/>
+<xacro:CW_thruster_link prefix="3" o_xyz="0 0 0" o_rpy="0 0 0"/>
+<xacro:CW_thruster_link prefix="4" o_xyz="0 0 0" o_rpy="0 0 0"/>
+<xacro:CCW_thruster_link prefix="5" o_xyz="0 0 0" o_rpy="3.14 0 0"/>
+<xacro:CW_thruster_link prefix="6" o_xyz="0 0 0" o_rpy="0 0 0"/>
+
+
+
+<joint name="base_joint" type="fixed">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+</joint>
+
+<xacro:macro name="thruster_joint" params= "prefix xyz rpy spin">
+    <joint name="thruster_${prefix}_joint" type="continuous">
+        <origin xyz="${xyz}" rpy="${rpy}"/>
+        <parent link="base_link"/>
+        <child link="thruster_${prefix}_link"/>
+        <axis xyz="0 ${spin} 0"/>
+    </joint>
+</xacro:macro>
+
+<xacro:thruster_joint prefix="1" xyz="0.197328 -0.159266 -0.023741" rpy="0.0 0.0 2.32129" spin="1"/>
+<xacro:thruster_joint prefix="2" xyz="0.198609 0.156904 -0.024284" rpy="0.0 0.0 0.785398" spin="1"/>
+<xacro:thruster_joint prefix="3" xyz="-0.214792 -0.14094 -0.023889" rpy="0.0 0.0 3.9619" spin="-1"/>
+<xacro:thruster_joint prefix="4" xyz="-0.214464 0.140772 -0.024366" rpy="0.0 0.0 5.44543" spin="-1"/>
+<xacro:thruster_joint prefix="5" xyz="0.000688 -0.134737 0.017612" rpy="1.57 0 0" spin="-1"/> 
+<xacro:thruster_joint prefix="6" xyz="0.001233 0.133275 0.015892" rpy="1.5708 0 0" spin="-1"/>
+
+
+</robot>

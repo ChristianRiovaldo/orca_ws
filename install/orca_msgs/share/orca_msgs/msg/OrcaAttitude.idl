@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from orca_msgs/msg/OrcaAttitude.msg
+// generated code does not contain a copyright notice
+
+
+module orca_msgs {
+  module msg {
+    struct OrcaAttitude {
+      float initial_x;
+
+      float initial_y;
+
+      float initial_z;
+
+      float yaw_deg;
+
+      float initial_deg;
+
+      float roll_deg;
+
+      float pitch_deg;
+
+      float rollspeed_deg_s;
+
+      float pitchspeed_deg_s;
+
+      float yawspeed_deg_s;
+    };
+  };
+};

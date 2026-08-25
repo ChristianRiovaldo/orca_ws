@@ -1,0 +1,12 @@
+{
+  "package_name": "orca_msgs",
+  "non_idl_tuples": [
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/FinalDetection.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/GateDetection.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaDepth.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaAttitude.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaProximity.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaControl.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/FlareSequence.msg"
+  ]
+}

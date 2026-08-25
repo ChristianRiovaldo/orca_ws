@@ -1,0 +1,14 @@
+msg/FinalDetection.idl
+msg/FinalDetection.msg
+msg/FlareSequence.idl
+msg/FlareSequence.msg
+msg/GateDetection.idl
+msg/GateDetection.msg
+msg/OrcaAttitude.idl
+msg/OrcaAttitude.msg
+msg/OrcaControl.idl
+msg/OrcaControl.msg
+msg/OrcaDepth.idl
+msg/OrcaDepth.msg
+msg/OrcaProximity.idl
+msg/OrcaProximity.msg

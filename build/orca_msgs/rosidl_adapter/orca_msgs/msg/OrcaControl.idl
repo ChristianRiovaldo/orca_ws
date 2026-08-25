@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from orca_msgs/msg/OrcaControl.msg
+// generated code does not contain a copyright notice
+
+
+module orca_msgs {
+  module msg {
+    struct OrcaControl {
+      int16 throttle;
+
+      int16 lateral;
+
+      int16 forward;
+
+      int16 yaw;
+
+      string arm_mode;
+
+      string control_mode;
+
+      string gripper_mode;
+
+      string source;
+    };
+  };
+};

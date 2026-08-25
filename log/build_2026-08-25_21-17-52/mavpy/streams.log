@@ -1,0 +1,36 @@
+[1.008s] Invoking command in '/home/riovaldo/orca_ws/src/mavpy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.328s] writing ../../build/mavpy/mavpy.egg-info/PKG-INFO
+[1.329s] writing dependency_links to ../../build/mavpy/mavpy.egg-info/dependency_links.txt
+[1.329s] writing entry points to ../../build/mavpy/mavpy.egg-info/entry_points.txt
+[1.329s] writing requirements to ../../build/mavpy/mavpy.egg-info/requires.txt
+[1.330s] writing top-level names to ../../build/mavpy/mavpy.egg-info/top_level.txt
+[1.379s] reading manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.381s] writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.381s] running build
+[1.381s] running build_py
+[1.382s] running install
+[1.390s] running install_lib
+[1.411s] running install_data
+[1.411s] running install_egg_info
+[1.433s] removing '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info' (and everything under it)
+[1.433s] Copying ../../build/mavpy/mavpy.egg-info to /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info
+[1.434s] running install_scripts
+[1.572s] Installing attitude_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.572s] Installing camera_final script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.572s] Installing camera_final_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.572s] Installing camera_gate_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.572s] Installing camera_qualification_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing communication_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing control_bridge script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing depth_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing depth_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing final script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing final_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing joystick script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing keyboard script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing proximity_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing qualification_mission script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.573s] Installing qualification_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.574s] writing list of installed files to '/home/riovaldo/orca_ws/build/mavpy/install.log'
+[1.611s] Invoked command in '/home/riovaldo/orca_ws/src/mavpy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --single-version-externally-managed install_data

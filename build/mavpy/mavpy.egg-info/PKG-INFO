@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mavpy
+Version: 0.1.0
+Summary: ORCA sensor, control bridge, teleop, and qualification nodes
+Maintainer: jetson
+Maintainer-email: jetson@todo.todo
+License: Proprietary

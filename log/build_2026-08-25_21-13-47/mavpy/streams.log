@@ -1,0 +1,105 @@
+[1.114s] Invoking command in '/home/riovaldo/orca_ws/src/mavpy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/ros2_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/ros2_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --single-version-externally-managed install_data
+[1.417s] running egg_info
+[1.417s] creating ../../build/mavpy/mavpy.egg-info
+[1.436s] writing ../../build/mavpy/mavpy.egg-info/PKG-INFO
+[1.436s] writing dependency_links to ../../build/mavpy/mavpy.egg-info/dependency_links.txt
+[1.436s] writing entry points to ../../build/mavpy/mavpy.egg-info/entry_points.txt
+[1.437s] writing requirements to ../../build/mavpy/mavpy.egg-info/requires.txt
+[1.437s] writing top-level names to ../../build/mavpy/mavpy.egg-info/top_level.txt
+[1.437s] writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.476s] reading manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.477s] writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.477s] running build
+[1.477s] running build_py
+[1.477s] creating /home/riovaldo/orca_ws/build/mavpy/build
+[1.477s] creating /home/riovaldo/orca_ws/build/mavpy/build/lib
+[1.477s] creating /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/keyboard.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/camera_final.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/control_bridge.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/proximity_node.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/final.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/qualification_nembak.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/depth_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/test_pwm_respon.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/camera_gate_node.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/communication_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.478s] copying mavpy/joystick.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/attitude_node.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/depth_node.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/camera_final_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/qualification_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/__init__.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/final_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/qualification_mission.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.479s] copying mavpy/camera_qualification_sim.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.480s] running install
+[1.488s] running install_lib
+[1.511s] creating /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.511s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/keyboard.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/camera_final.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/control_bridge.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/proximity_node.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/final.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/qualification_nembak.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.512s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/depth_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/test_pwm_respon.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/camera_gate_node.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/communication_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/joystick.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/attitude_node.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/depth_node.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.513s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/camera_final_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/qualification_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/__init__.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/final_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/qualification_mission.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/camera_qualification_sim.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.514s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/keyboard.py to keyboard.cpython-312.pyc
+[1.515s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/camera_final.py to camera_final.cpython-312.pyc
+[1.518s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/control_bridge.py to control_bridge.cpython-312.pyc
+[1.520s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/proximity_node.py to proximity_node.cpython-312.pyc
+[1.521s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/final.py to final.cpython-312.pyc
+[1.527s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/qualification_nembak.py to qualification_nembak.cpython-312.pyc
+[1.529s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/depth_sim.py to depth_sim.cpython-312.pyc
+[1.529s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/test_pwm_respon.py to test_pwm_respon.cpython-312.pyc
+[1.530s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/camera_gate_node.py to camera_gate_node.cpython-312.pyc
+[1.532s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/communication_sim.py to communication_sim.cpython-312.pyc
+[1.533s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/joystick.py to joystick.cpython-312.pyc
+[1.536s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/attitude_node.py to attitude_node.cpython-312.pyc
+[1.537s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/depth_node.py to depth_node.cpython-312.pyc
+[1.538s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/camera_final_sim.py to camera_final_sim.cpython-312.pyc
+[1.543s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/qualification_sim.py to qualification_sim.cpython-312.pyc
+[1.545s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/__init__.py to __init__.cpython-312.pyc
+[1.545s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/final_sim.py to final_sim.cpython-312.pyc
+[1.551s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/qualification_mission.py to qualification_mission.cpython-312.pyc
+[1.554s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/camera_qualification_sim.py to camera_qualification_sim.cpython-312.pyc
+[1.556s] running install_data
+[1.557s] creating /home/riovaldo/orca_ws/install/mavpy/share/ament_index
+[1.557s] creating /home/riovaldo/orca_ws/install/mavpy/share/ament_index/resource_index
+[1.557s] creating /home/riovaldo/orca_ws/install/mavpy/share/ament_index/resource_index/packages
+[1.557s] copying resource/mavpy -> /home/riovaldo/orca_ws/install/mavpy/share/ament_index/resource_index/packages
+[1.557s] copying package.xml -> /home/riovaldo/orca_ws/install/mavpy/share/mavpy
+[1.558s] creating /home/riovaldo/orca_ws/install/mavpy/share/mavpy/models
+[1.558s] copying mavpy/models/final.engine -> /home/riovaldo/orca_ws/install/mavpy/share/mavpy/models
+[1.567s] running install_egg_info
+[1.589s] Copying ../../build/mavpy/mavpy.egg-info to /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info
+[1.590s] running install_scripts
+[1.729s] Installing attitude_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.729s] Installing camera_final script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.729s] Installing camera_final_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.729s] Installing camera_gate_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.730s] Installing camera_qualification_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.730s] Installing communication_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.730s] Installing control_bridge script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.730s] Installing depth_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.730s] Installing depth_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing final script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing final_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing joystick script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing keyboard script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing proximity_node script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing qualification_mission script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.731s] Installing qualification_sim script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.732s] writing list of installed files to '/home/riovaldo/orca_ws/build/mavpy/install.log'
+[1.774s] Invoked command in '/home/riovaldo/orca_ws/src/mavpy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/ros2_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/ros2_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --single-version-externally-managed install_data

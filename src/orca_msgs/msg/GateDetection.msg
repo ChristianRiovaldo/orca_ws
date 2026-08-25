@@ -1,0 +1,10 @@
+bool detected
+string class_name
+float32 confidence
+float32 center_x
+float32 center_y
+float32 center_x_norm
+float32 bbox_width
+float32 bbox_height
+float32 bbox_area_ratio
+float32 distance

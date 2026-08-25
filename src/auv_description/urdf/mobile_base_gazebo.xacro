@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo>
+        <plugin
+            filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+            <joint_name>thruster_1_joint</joint_name>
+            <joint_name>thruster_2_joint</joint_name>
+            <joint_name>thruster_3_joint</joint_name>
+            <joint_name>thruster_4_joint</joint_name>
+            <joint_name>thruster_5_joint</joint_name>
+            <joint_name>thruster_6_joint</joint_name>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin
+            filename="libgz-sim-pose-publisher-system.so"
+            name="gz::sim::systems::PosePublisher">
+            <publish_model_pose>true</publish_model_pose>
+            <publish_link_pose>false</publish_link_pose>
+            <use_pose_vector_msg>false</use_pose_vector_msg>
+            <update_frequency>50</update_frequency>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin
+            filename="gz-sim-hydrodynamics-system"
+            name="gz::sim::systems::Hydrodynamics">
+            <link_name>base_footprint</link_name>
+            <water_density>1000.0</water_density>
+          
+            <xDotU>0</xDotU>
+            <yDotV>0</yDotV>
+            <zDotW>0</zDotW>
+            <kDotP>0</kDotP>
+            <mDotQ>0</mDotQ>
+            <nDotR>0</nDotR>
+         
+            <xU>0</xU>
+            <yV>0</yV>
+            <zW>0</zW>
+            <kP>0</kP>
+            <mQ>0</mQ>
+            <nR>0</nR>
+           
+            <xUabsU>-36.732</xUabsU>
+            <yVabsV>-58.16</yVabsV>
+            <zWabsW>-73.225</zWabsW>
+            <kPabsP>-4.0</kPabsP>
+            <mQabsQ>-4.0</mQabsQ>
+            <nRabsR>-4.0</nRabsR>
+        </plugin>
+    </gazebo>
+
+    <xacro:macro name="thruster_plugin" params="prefix thrust_coef">
+        <gazebo>
+            <plugin
+                filename="gz-sim-thruster-system"
+                name="gz::sim::systems::Thruster">
+                <namespace>ORCA_V3</namespace>
+                <joint_name>thruster_${prefix}_joint</joint_name>
+                <thrust_coefficient>${thrust_coef*0.02}</thrust_coefficient>
+                <fluid_density>1000.0</fluid_density>
+                <propeller_diameter>0.1</propeller_diameter>
+                <velocity_control>true</velocity_control>
+                <use_angvel_cmd>False</use_angvel_cmd>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <!-- The Value of thrust_coef Only 1(CCW) and -1(CW) -->
+    <xacro:thruster_plugin prefix="1" thrust_coef="1"/>
+    <xacro:thruster_plugin prefix="2" thrust_coef="1"/>
+    <xacro:thruster_plugin prefix="3" thrust_coef="-1"/>
+    <xacro:thruster_plugin prefix="4" thrust_coef="-1"/>
+    <xacro:thruster_plugin prefix="5" thrust_coef="1"/>
+    <xacro:thruster_plugin prefix="6" thrust_coef="-1"/>
+
+
+    <!-- ARDUPILOT GAZEBO PLUGIN CONF -->
+    <xacro:macro name="thruster_command" params="prefix">
+        <control channel="${prefix - 1}">
+            <jointName>thruster_${prefix}_joint</jointName>
+            <servo_min>1100</servo_min>
+            <servo_max>1900</servo_max>
+            <type>COMMAND</type>
+            <cmd_topic>/model/ORCA_V3/joint/thruster_${prefix}_joint/cmd_thrust</cmd_topic>
+            <offset>-0.5</offset>
+            <multiplier>100</multiplier>
+        </control>
+    </xacro:macro>
+
+   <gazebo>
+        <plugin name="ArduPilotPlugin" filename="libArduPilotPlugin.so">
+            <!-- Port settings -->
+            <fdm_addr>127.0.0.1</fdm_addr>
+            <fdm_port_in>9002</fdm_port_in>
+            <connectionTimeoutMaxCount>5</connectionTimeoutMaxCount>
+            <lock_step>1</lock_step>
+
+            <!-- Transform from the Gazebo body frame (x-forward, y-left, z-up)
+                to the ArduPilot body frame (x-forward, y-right, z-down) -->
+            <modelXYZToAirplaneXForwardZDown>0 0 0 3.142 0 0</modelXYZToAirplaneXForwardZDown>
+
+            <!-- Transform from the Gazebo world frame (ENU)
+                to the ArduPilot world frame (NED) -->
+            <gazeboXYZToNED>0 0 0 3.142 0 1.571</gazeboXYZToNED>
+
+            <!-- Sensors -->
+            <imuName>imu_sensor</imuName>
+            
+            <xacro:thruster_command prefix="1"/>
+            <xacro:thruster_command prefix="2"/>
+            <xacro:thruster_command prefix="3"/>
+            <xacro:thruster_command prefix="4"/>
+            <xacro:thruster_command prefix="5"/>
+            <xacro:thruster_command prefix="6"/>
+        </plugin>
+   </gazebo>
+
+   <gazebo reference="camera_link">
+        <sensor name="camera" type="camera">
+            <camera>
+                <horizontal_fov>1.3962634</horizontal_fov>
+                <image>
+                    <width>640</width>
+                    <height>480</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.1</near>
+                    <far>15</far>
+                </clip>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.007</stddev>
+                </noise>
+                <optical_frame_id>camera_link_optical</optical_frame_id>
+                <camera_info_topic>camera/camera_info</camera_info_topic>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>20</update_rate>
+            <visualize>true</visualize>
+            <topic>camera/image_raw</topic>            
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="imu_link">
+        <sensor name="imu_sensor" type="imu">
+            <always_on>1</always_on>
+            <update_rate>1000.0</update_rate>
+        </sensor>
+    </gazebo>
+
+</robot>
+
