@@ -22,25 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'attitude_node = mavpy.attitude_node:main',
-            'camera_gate_node = mavpy.camera_gate_node:main',
-            'camera_qualification_sim = mavpy.camera_qualification_sim:main',
-            'camera_final_sim = mavpy.camera_final_sim:main',
-            'camera_final = mavpy.camera_final:main',
-
             'control_bridge = mavpy.control_bridge:main',
-            'communication_sim = mavpy.communication_sim:main',
-            'depth_node = mavpy.depth_node:main',
-            'depth_sim = mavpy.depth_sim:main',
-
-            'final_sim = mavpy.final_sim:main',
-            'final = mavpy.final:main',
-            
-            'joystick = mavpy.joystick:main',
             'keyboard = mavpy.keyboard:main',
-            'proximity_node = mavpy.proximity_node:main',
-            'qualification_mission = mavpy.qualification_mission:main',
-            'qualification_sim = mavpy.qualification_sim:main',
         ],
     },
 )
