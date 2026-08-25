@@ -15,4 +15,3 @@ src/mavpy/mavpy/qualification_nembak.py
 src/mavpy/mavpy/qualification_sim.py
 src/mavpy/mavpy/test_pwm_respon.py
 src/mavpy/mavpy/models/final.engine
-.gitignore
