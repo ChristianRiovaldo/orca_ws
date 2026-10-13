@@ -73,6 +73,7 @@ CMakeFiles/orca_msgs: /home/riovaldo/orca_ws/src/orca_msgs/msg/OrcaAttitude.msg
 CMakeFiles/orca_msgs: /home/riovaldo/orca_ws/src/orca_msgs/msg/OrcaProximity.msg
 CMakeFiles/orca_msgs: /home/riovaldo/orca_ws/src/orca_msgs/msg/OrcaControl.msg
 CMakeFiles/orca_msgs: /home/riovaldo/orca_ws/src/orca_msgs/msg/FlareSequence.msg
+CMakeFiles/orca_msgs: /home/riovaldo/orca_ws/src/orca_msgs/msg/FailsafeTrigger.msg
 
 orca_msgs: CMakeFiles/orca_msgs
 orca_msgs: CMakeFiles/orca_msgs.dir/build.make

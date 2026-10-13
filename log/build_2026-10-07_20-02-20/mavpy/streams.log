@@ -1,0 +1,25 @@
+[0.841s] Invoking command in '/home/riovaldo/orca_ws/src/mavpy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --install-scripts $base/lib/mavpy --single-version-externally-managed install_data
+[1.125s] running egg_info
+[1.143s] writing ../../build/mavpy/mavpy.egg-info/PKG-INFO
+[1.143s] writing dependency_links to ../../build/mavpy/mavpy.egg-info/dependency_links.txt
+[1.143s] writing entry points to ../../build/mavpy/mavpy.egg-info/entry_points.txt
+[1.143s] writing requirements to ../../build/mavpy/mavpy.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/mavpy/mavpy.egg-info/top_level.txt
+[1.180s] reading manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.181s] running build_py
+[1.181s] copying mavpy/control_bridge.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+[1.181s] running install
+[1.188s] running install_lib
+[1.208s] copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/control_bridge.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+[1.210s] byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/control_bridge.py to control_bridge.cpython-312.pyc
+[1.213s] running install_data
+[1.213s] running install_egg_info
+[1.233s] removing '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info' (and everything under it)
+[1.233s] Copying ../../build/mavpy/mavpy.egg-info to /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info
+[1.234s] running install_scripts
+[1.358s] Installing control_bridge script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.358s] Installing keyboard script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+[1.358s] writing list of installed files to '/home/riovaldo/orca_ws/build/mavpy/install.log'
+[1.391s] Invoked command in '/home/riovaldo/orca_ws/src/mavpy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavpy build --build-base /home/riovaldo/orca_ws/build/mavpy/build install --record /home/riovaldo/orca_ws/build/mavpy/install.log --install-scripts $base/lib/mavpy --single-version-externally-managed install_data

@@ -28,6 +28,8 @@ orca_msgs__msg__OrcaControl__init(orca_msgs__msg__OrcaControl * msg)
   // lateral
   // forward
   // yaw
+  // pitch
+  // roll
   // arm_mode
   if (!rosidl_runtime_c__String__init(&msg->arm_mode)) {
     orca_msgs__msg__OrcaControl__fini(msg);
@@ -61,6 +63,8 @@ orca_msgs__msg__OrcaControl__fini(orca_msgs__msg__OrcaControl * msg)
   // lateral
   // forward
   // yaw
+  // pitch
+  // roll
   // arm_mode
   rosidl_runtime_c__String__fini(&msg->arm_mode);
   // control_mode
@@ -91,6 +95,14 @@ orca_msgs__msg__OrcaControl__are_equal(const orca_msgs__msg__OrcaControl * lhs, 
   }
   // yaw
   if (lhs->yaw != rhs->yaw) {
+    return false;
+  }
+  // pitch
+  if (lhs->pitch != rhs->pitch) {
+    return false;
+  }
+  // roll
+  if (lhs->roll != rhs->roll) {
     return false;
   }
   // arm_mode
@@ -136,6 +148,10 @@ orca_msgs__msg__OrcaControl__copy(
   output->forward = input->forward;
   // yaw
   output->yaw = input->yaw;
+  // pitch
+  output->pitch = input->pitch;
+  // roll
+  output->roll = input->roll;
   // arm_mode
   if (!rosidl_runtime_c__String__copy(
       &(input->arm_mode), &(output->arm_mode)))
@@ -201,6 +217,9 @@ orca_msgs__msg__OrcaControl__Sequence__init(orca_msgs__msg__OrcaControl__Sequenc
   orca_msgs__msg__OrcaControl * data = NULL;
 
   if (size) {
+    if (size > SIZE_MAX / sizeof(orca_msgs__msg__OrcaControl)) {
+      return false;
+    }
     data = (orca_msgs__msg__OrcaControl *)allocator.zero_allocate(size, sizeof(orca_msgs__msg__OrcaControl), allocator.state);
     if (!data) {
       return false;
@@ -306,6 +325,9 @@ orca_msgs__msg__OrcaControl__Sequence__copy(
     return false;
   }
   if (output->capacity < input->size) {
+    if (input->size > SIZE_MAX / sizeof(orca_msgs__msg__OrcaControl)) {
+      return false;
+    }
     const size_t allocation_size =
       input->size * sizeof(orca_msgs__msg__OrcaControl);
     rcutils_allocator_t allocator = rcutils_get_default_allocator();

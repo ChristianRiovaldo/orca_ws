@@ -166,6 +166,9 @@ orca_msgs__msg__OrcaAttitude__Sequence__init(orca_msgs__msg__OrcaAttitude__Seque
   orca_msgs__msg__OrcaAttitude * data = NULL;
 
   if (size) {
+    if (size > SIZE_MAX / sizeof(orca_msgs__msg__OrcaAttitude)) {
+      return false;
+    }
     data = (orca_msgs__msg__OrcaAttitude *)allocator.zero_allocate(size, sizeof(orca_msgs__msg__OrcaAttitude), allocator.state);
     if (!data) {
       return false;
@@ -271,6 +274,9 @@ orca_msgs__msg__OrcaAttitude__Sequence__copy(
     return false;
   }
   if (output->capacity < input->size) {
+    if (input->size > SIZE_MAX / sizeof(orca_msgs__msg__OrcaAttitude)) {
+      return false;
+    }
     const size_t allocation_size =
       input->size * sizeof(orca_msgs__msg__OrcaAttitude);
     rcutils_allocator_t allocator = rcutils_get_default_allocator();

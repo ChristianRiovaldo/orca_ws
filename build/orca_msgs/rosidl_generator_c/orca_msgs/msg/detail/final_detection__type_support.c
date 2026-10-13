@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "orca_msgs/msg/detail/final_detection__type_support.h"
-#include "orca_msgs/msg/detail/final_detection__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "orca_msgs/msg/detail/final_detection__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "orca_msgs/msg/detail/final_detection__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/riovaldo/orca_ws/build/auv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riovaldo/orca_ws/build/auv_bringup -- -j8 -l8
+[0.054s] Invoked command in '/home/riovaldo/orca_ws/build/auv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riovaldo/orca_ws/build/auv_bringup -- -j8 -l8
+[0.064s] Invoking command in '/home/riovaldo/orca_ws/build/auv_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riovaldo/orca_ws/build/auv_bringup
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/perintah_run_ardupilot.txt
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/auv_gazebo.launch.xml
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//config
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//config/gazebo_bridge.yaml
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_qualification.sdf
+[0.076s] -- Installing: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_final.sdf
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/package_run_dependencies/auv_bringup
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/parent_prefix_path/auv_bringup
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/path.sh
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/path.dsv
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.bash
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.sh
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.zsh
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.dsv
+[0.078s] -- Installing: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/package.dsv
+[0.078s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/packages/auv_bringup
+[0.078s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/cmake/auv_bringupConfig.cmake
+[0.078s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/cmake/auv_bringupConfig-version.cmake
+[0.078s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/package.xml
+[0.078s] Invoked command in '/home/riovaldo/orca_ws/build/auv_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riovaldo/orca_ws/build/auv_bringup

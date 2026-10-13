@@ -1,6 +1,4 @@
-source;share/mavpy/hook/pythonpath.ps1
 source;share/mavpy/hook/pythonpath.dsv
 source;share/mavpy/hook/pythonpath.sh
-source;share/mavpy/hook/ament_prefix_path.ps1
 source;share/mavpy/hook/ament_prefix_path.dsv
 source;share/mavpy/hook/ament_prefix_path.sh

@@ -3,6 +3,9 @@
 
 CMakeFiles/orca_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c.o
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.h
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__struct.h
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.h
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/final_detection__functions.h
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/final_detection__struct.h
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/final_detection__type_support.h

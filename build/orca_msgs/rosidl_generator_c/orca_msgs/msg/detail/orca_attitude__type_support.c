@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "orca_msgs/msg/detail/orca_attitude__functions.h"
+#include "orca_msgs/msg/detail/orca_attitude__struct.h"
 #include "orca_msgs/msg/detail/orca_attitude__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "orca_msgs/msg/detail/orca_attitude__struct.h"
+#include "orca_msgs/msg/detail/orca_attitude__functions.h"
 
 #ifdef __cplusplus
 extern "C"

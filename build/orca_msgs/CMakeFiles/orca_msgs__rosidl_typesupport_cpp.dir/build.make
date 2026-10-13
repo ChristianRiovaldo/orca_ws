@@ -82,6 +82,7 @@ rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp: rosidl_a
 rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp: rosidl_adapter/orca_msgs/msg/OrcaProximity.idl
 rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp: rosidl_adapter/orca_msgs/msg/OrcaControl.idl
 rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp: rosidl_adapter/orca_msgs/msg/FlareSequence.idl
+rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp: rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
@@ -102,6 +103,9 @@ rosidl_typesupport_cpp/orca_msgs/msg/orca_control__type_support.cpp: rosidl_type
 
 rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp: rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp
+
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp: rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp
 
 CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o: rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp
@@ -201,6 +205,20 @@ CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp -o CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.s
 
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o: rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o -MF CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o.d -o CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o -c /home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp
+
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp > CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp -o CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+
 # Object files for target orca_msgs__rosidl_typesupport_cpp
 orca_msgs__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o" \
@@ -209,7 +227,8 @@ orca_msgs__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_attitude__type_support.cpp.o" \
 "CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.o" \
 "CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_control__type_support.cpp.o" \
-"CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.o"
+"CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.o" \
+"CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o"
 
 # External object files for target orca_msgs__rosidl_typesupport_cpp
 orca_msgs__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
@@ -221,6 +240,7 @@ liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesuppor
 liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.o
 liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_control__type_support.cpp.o
 liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.o
+liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
 liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/build.make
 liborca_msgs__rosidl_typesupport_cpp.so: liborca_msgs__rosidl_generator_c.so
 liborca_msgs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
@@ -228,7 +248,7 @@ liborca_msgs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesuppor
 liborca_msgs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 liborca_msgs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 liborca_msgs__rosidl_typesupport_cpp.so: CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library liborca_msgs__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library liborca_msgs__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +259,7 @@ CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/clean
 
+CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp
 CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp
 CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp
 CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/orca_msgs/msg/gate_detection__type_support.cpp

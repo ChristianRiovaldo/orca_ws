@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/orca_msgs__cpp"
+  "rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__builder.hpp"
+  "rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__struct.hpp"
+  "rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__traits.hpp"
+  "rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__builder.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__struct.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__traits.hpp"
@@ -28,6 +32,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__struct.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__traits.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__type_support.hpp"
+  "rosidl_generator_cpp/orca_msgs/msg/failsafe_trigger.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/flare_sequence.hpp"
   "rosidl_generator_cpp/orca_msgs/msg/gate_detection.hpp"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/orca_msgs__rosidl_generator_type_description"
+  "rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json"
   "rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json"
   "rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json"
   "rosidl_generator_type_description/orca_msgs/msg/GateDetection.json"

@@ -33,6 +33,8 @@ typedef struct orca_msgs__msg__OrcaControl
   int16_t lateral;
   int16_t forward;
   int16_t yaw;
+  int16_t pitch;
+  int16_t roll;
   rosidl_runtime_c__String arm_mode;
   rosidl_runtime_c__String control_mode;
   rosidl_runtime_c__String gripper_mode;

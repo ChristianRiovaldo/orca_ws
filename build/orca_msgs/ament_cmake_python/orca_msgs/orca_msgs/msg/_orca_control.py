@@ -66,6 +66,8 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
         '_lateral',
         '_forward',
         '_yaw',
+        '_pitch',
+        '_roll',
         '_arm_mode',
         '_control_mode',
         '_gripper_mode',
@@ -78,6 +80,8 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
         'lateral': 'int16',
         'forward': 'int16',
         'yaw': 'int16',
+        'pitch': 'int16',
+        'roll': 'int16',
         'arm_mode': 'string',
         'control_mode': 'string',
         'gripper_mode': 'string',
@@ -87,6 +91,8 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
         rosidl_parser.definition.BasicType('int16'),  # noqa: E501
         rosidl_parser.definition.BasicType('int16'),  # noqa: E501
         rosidl_parser.definition.BasicType('int16'),  # noqa: E501
@@ -110,6 +116,8 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
         self.lateral = kwargs.get('lateral', int())
         self.forward = kwargs.get('forward', int())
         self.yaw = kwargs.get('yaw', int())
+        self.pitch = kwargs.get('pitch', int())
+        self.roll = kwargs.get('roll', int())
         self.arm_mode = kwargs.get('arm_mode', str())
         self.control_mode = kwargs.get('control_mode', str())
         self.gripper_mode = kwargs.get('gripper_mode', str())
@@ -152,6 +160,10 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
         if self.forward != other.forward:
             return False
         if self.yaw != other.yaw:
+            return False
+        if self.pitch != other.pitch:
+            return False
+        if self.roll != other.roll:
             return False
         if self.arm_mode != other.arm_mode:
             return False
@@ -227,6 +239,36 @@ class OrcaControl(metaclass=Metaclass_OrcaControl):
             assert value >= -32768 and value < 32768, \
                 "The 'yaw' field must be an integer in [-32768, 32767]"
         self._yaw = value
+
+    @builtins.property
+    def pitch(self):
+        """Message field 'pitch'."""
+        return self._pitch
+
+    @pitch.setter
+    def pitch(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'pitch' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'pitch' field must be an integer in [-32768, 32767]"
+        self._pitch = value
+
+    @builtins.property
+    def roll(self):
+        """Message field 'roll'."""
+        return self._roll
+
+    @roll.setter
+    def roll(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'roll' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'roll' field must be an integer in [-32768, 32767]"
+        self._roll = value
 
     @builtins.property
     def arm_mode(self):

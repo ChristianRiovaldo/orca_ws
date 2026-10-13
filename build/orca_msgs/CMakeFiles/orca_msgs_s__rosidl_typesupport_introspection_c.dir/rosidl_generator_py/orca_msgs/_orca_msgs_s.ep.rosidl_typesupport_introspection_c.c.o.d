@@ -250,4 +250,7 @@ CMakeFiles/orca_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/orca_control__functions.h \
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.h \
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__struct.h \
- /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.h
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.h \
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.h \
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__struct.h \
+ /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.h

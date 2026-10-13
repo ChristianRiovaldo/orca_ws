@@ -95,6 +95,7 @@ rosidl_generator_c/orca_msgs/msg/final_detection.h: rosidl_adapter/orca_msgs/msg
 rosidl_generator_c/orca_msgs/msg/final_detection.h: rosidl_adapter/orca_msgs/msg/OrcaProximity.idl
 rosidl_generator_c/orca_msgs/msg/final_detection.h: rosidl_adapter/orca_msgs/msg/OrcaControl.idl
 rosidl_generator_c/orca_msgs/msg/final_detection.h: rosidl_adapter/orca_msgs/msg/FlareSequence.idl
+rosidl_generator_c/orca_msgs/msg/final_detection.h: rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c__arguments.json
 
@@ -179,6 +180,18 @@ rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__struct.h: rosidl_generat
 rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.h: rosidl_generator_c/orca_msgs/msg/final_detection.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.h
 
+rosidl_generator_c/orca_msgs/msg/failsafe_trigger.h: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/failsafe_trigger.h
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.h: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.h
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__struct.h: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__struct.h
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.h: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.h
+
 rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c: rosidl_generator_c/orca_msgs/msg/final_detection.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c
 
@@ -241,6 +254,15 @@ rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.c: rosidl_gene
 
 rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c: rosidl_generator_c/orca_msgs/msg/final_detection.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c: rosidl_generator_c/orca_msgs/msg/final_detection.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c
 
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o: rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c
@@ -536,6 +558,48 @@ CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.s
 
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o -MF CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o.d -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o -c /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c > CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o -MF CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o.d -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o -c /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c > CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o: CMakeFiles/orca_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o -MF CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o.d -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o -c /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c > CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c -o CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+
 # Object files for target orca_msgs__rosidl_generator_c
 orca_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o" \
@@ -558,7 +622,10 @@ orca_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__type_support.c.o" \
 "CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__description.c.o" \
 "CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.c.o" \
-"CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o"
+"CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o" \
+"CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o" \
+"CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o" \
+"CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o"
 
 # External object files for target orca_msgs__rosidl_generator_c
 orca_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -584,11 +651,14 @@ liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.di
 liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__description.c.o
 liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.c.o
 liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o
+liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o
+liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o
+liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
 liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make
 liborca_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 liborca_msgs__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 liborca_msgs__rosidl_generator_c.so: CMakeFiles/orca_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C shared library liborca_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C shared library liborca_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/orca_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -599,6 +669,12 @@ CMakeFiles/orca_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/orca_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/orca_msgs__rosidl_generator_c.dir/clean
 
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.h
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__struct.h
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.h
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/final_detection__functions.c
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/final_detection__functions.h
@@ -641,6 +717,7 @@ CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msg
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__struct.h
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__type_support.c
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__type_support.h
+CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/failsafe_trigger.h
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/final_detection.h
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/flare_sequence.h
 CMakeFiles/orca_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/orca_msgs/msg/gate_detection.h

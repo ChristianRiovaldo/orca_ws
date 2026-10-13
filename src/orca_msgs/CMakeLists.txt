@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OrcaProximity.msg"
   "msg/OrcaControl.msg"
   "msg/FlareSequence.msg"
+  "msg/FailsafeTrigger.msg"
 )
 
 ament_export_dependencies(rosidl_default_runtime)

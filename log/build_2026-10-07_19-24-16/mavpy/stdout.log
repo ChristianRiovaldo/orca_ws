@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/mavpy/mavpy.egg-info/PKG-INFO
+writing dependency_links to ../../build/mavpy/mavpy.egg-info/dependency_links.txt
+writing entry points to ../../build/mavpy/mavpy.egg-info/entry_points.txt
+writing requirements to ../../build/mavpy/mavpy.egg-info/requires.txt
+writing top-level names to ../../build/mavpy/mavpy.egg-info/top_level.txt
+reading manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mavpy/keyboard.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+copying mavpy/control_bridge.py -> /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy
+running install
+running install_lib
+copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/keyboard.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+copying /home/riovaldo/orca_ws/build/mavpy/build/lib/mavpy/control_bridge.py -> /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy
+byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/keyboard.py to keyboard.cpython-312.pyc
+byte-compiling /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy/control_bridge.py to control_bridge.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/mavpy/mavpy.egg-info to /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info
+running install_scripts
+Installing control_bridge script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+Installing keyboard script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy
+writing list of installed files to '/home/riovaldo/orca_ws/build/mavpy/install.log'

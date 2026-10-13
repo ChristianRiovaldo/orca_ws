@@ -46,6 +46,8 @@ struct OrcaControl_
       this->lateral = 0;
       this->forward = 0;
       this->yaw = 0;
+      this->pitch = 0;
+      this->roll = 0;
       this->arm_mode = "";
       this->control_mode = "";
       this->gripper_mode = "";
@@ -66,6 +68,8 @@ struct OrcaControl_
       this->lateral = 0;
       this->forward = 0;
       this->yaw = 0;
+      this->pitch = 0;
+      this->roll = 0;
       this->arm_mode = "";
       this->control_mode = "";
       this->gripper_mode = "";
@@ -86,6 +90,12 @@ struct OrcaControl_
   using _yaw_type =
     int16_t;
   _yaw_type yaw;
+  using _pitch_type =
+    int16_t;
+  _pitch_type pitch;
+  using _roll_type =
+    int16_t;
+  _roll_type roll;
   using _arm_mode_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _arm_mode_type arm_mode;
@@ -122,6 +132,18 @@ struct OrcaControl_
     const int16_t & _arg)
   {
     this->yaw = _arg;
+    return *this;
+  }
+  Type & set__pitch(
+    const int16_t & _arg)
+  {
+    this->pitch = _arg;
+    return *this;
+  }
+  Type & set__roll(
+    const int16_t & _arg)
+  {
+    this->roll = _arg;
     return *this;
   }
   Type & set__arm_mode(
@@ -201,6 +223,12 @@ struct OrcaControl_
       return false;
     }
     if (this->yaw != other.yaw) {
+      return false;
+    }
+    if (this->pitch != other.pitch) {
+      return false;
+    }
+    if (this->roll != other.roll) {
       return false;
     }
     if (this->arm_mode != other.arm_mode) {

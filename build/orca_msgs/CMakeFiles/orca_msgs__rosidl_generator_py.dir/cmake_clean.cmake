@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o"
+  "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o.d"
   "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o"
   "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o.d"
   "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o"

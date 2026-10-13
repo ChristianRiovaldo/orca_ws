@@ -11,6 +11,8 @@
             <joint_name>thruster_4_joint</joint_name>
             <joint_name>thruster_5_joint</joint_name>
             <joint_name>thruster_6_joint</joint_name>
+            <joint_name>thruster_7_joint</joint_name>
+            <joint_name>thruster_8_joint</joint_name>
         </plugin>
     </gazebo>
 
@@ -78,6 +80,8 @@
     <xacro:thruster_plugin prefix="4" thrust_coef="-1"/>
     <xacro:thruster_plugin prefix="5" thrust_coef="1"/>
     <xacro:thruster_plugin prefix="6" thrust_coef="-1"/>
+    <xacro:thruster_plugin prefix="7" thrust_coef="-1"/>
+    <xacro:thruster_plugin prefix="8" thrust_coef="1"/>
 
 
     <!-- ARDUPILOT GAZEBO PLUGIN CONF -->
@@ -118,6 +122,8 @@
             <xacro:thruster_command prefix="4"/>
             <xacro:thruster_command prefix="5"/>
             <xacro:thruster_command prefix="6"/>
+            <xacro:thruster_command prefix="7"/>
+            <xacro:thruster_command prefix="8"/>
         </plugin>
    </gazebo>
 

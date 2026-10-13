@@ -1,5 +1,5 @@
-/home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/auv_gazebo.launch.xml
 /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/perintah_run_ardupilot.txt
+/home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/auv_gazebo.launch.xml
 /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//config/gazebo_bridge.yaml
 /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_qualification.sdf
 /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_final.sdf

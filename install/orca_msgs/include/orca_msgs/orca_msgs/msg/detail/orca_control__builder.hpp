@@ -88,16 +88,48 @@ private:
   ::orca_msgs::msg::OrcaControl msg_;
 };
 
+class Init_OrcaControl_roll
+{
+public:
+  explicit Init_OrcaControl_roll(::orca_msgs::msg::OrcaControl & msg)
+  : msg_(msg)
+  {}
+  Init_OrcaControl_arm_mode roll(::orca_msgs::msg::OrcaControl::_roll_type arg)
+  {
+    msg_.roll = std::move(arg);
+    return Init_OrcaControl_arm_mode(msg_);
+  }
+
+private:
+  ::orca_msgs::msg::OrcaControl msg_;
+};
+
+class Init_OrcaControl_pitch
+{
+public:
+  explicit Init_OrcaControl_pitch(::orca_msgs::msg::OrcaControl & msg)
+  : msg_(msg)
+  {}
+  Init_OrcaControl_roll pitch(::orca_msgs::msg::OrcaControl::_pitch_type arg)
+  {
+    msg_.pitch = std::move(arg);
+    return Init_OrcaControl_roll(msg_);
+  }
+
+private:
+  ::orca_msgs::msg::OrcaControl msg_;
+};
+
 class Init_OrcaControl_yaw
 {
 public:
   explicit Init_OrcaControl_yaw(::orca_msgs::msg::OrcaControl & msg)
   : msg_(msg)
   {}
-  Init_OrcaControl_arm_mode yaw(::orca_msgs::msg::OrcaControl::_yaw_type arg)
+  Init_OrcaControl_pitch yaw(::orca_msgs::msg::OrcaControl::_yaw_type arg)
   {
     msg_.yaw = std::move(arg);
-    return Init_OrcaControl_arm_mode(msg_);
+    return Init_OrcaControl_pitch(msg_);
   }
 
 private:

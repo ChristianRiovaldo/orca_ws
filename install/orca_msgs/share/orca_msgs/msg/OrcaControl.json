@@ -44,6 +44,26 @@
           "default_value": ""
         },
         {
+          "name": "pitch",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "roll",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
           "name": "arm_mode",
           "type": {
             "type_id": 17,
@@ -90,7 +110,7 @@
   "type_hashes": [
     {
       "type_name": "orca_msgs/msg/OrcaControl",
-      "hash_string": "RIHS01_c112fb9f0af273808fa8a212d350d5664613bde1afa69bc504ba4961c4367b53"
+      "hash_string": "RIHS01_6aff2bf1d4ee3081ea39e708f23a58b2145419fbf126477291de63a4b3395973"
     }
   ]
 }

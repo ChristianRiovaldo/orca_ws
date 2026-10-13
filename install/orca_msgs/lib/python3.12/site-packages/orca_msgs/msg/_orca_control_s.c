@@ -89,6 +89,24 @@ bool orca_msgs__msg__orca_control__convert_from_py(PyObject * _pymsg, void * _ro
     ros_message->yaw = (int16_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
+  {  // pitch
+    PyObject * field = PyObject_GetAttrString(_pymsg, "pitch");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->pitch = (int16_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // roll
+    PyObject * field = PyObject_GetAttrString(_pymsg, "roll");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->roll = (int16_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
   {  // arm_mode
     PyObject * field = PyObject_GetAttrString(_pymsg, "arm_mode");
     if (!field) {
@@ -209,6 +227,28 @@ PyObject * orca_msgs__msg__orca_control__convert_to_py(void * raw_ros_message)
     field = PyLong_FromLong(ros_message->yaw);
     {
       int rc = PyObject_SetAttrString(_pymessage, "yaw", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // pitch
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->pitch);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "pitch", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // roll
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->roll);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "roll", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

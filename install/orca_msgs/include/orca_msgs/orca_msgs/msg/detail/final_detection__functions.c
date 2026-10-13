@@ -181,6 +181,9 @@ orca_msgs__msg__FinalDetection__Sequence__init(orca_msgs__msg__FinalDetection__S
   orca_msgs__msg__FinalDetection * data = NULL;
 
   if (size) {
+    if (size > SIZE_MAX / sizeof(orca_msgs__msg__FinalDetection)) {
+      return false;
+    }
     data = (orca_msgs__msg__FinalDetection *)allocator.zero_allocate(size, sizeof(orca_msgs__msg__FinalDetection), allocator.state);
     if (!data) {
       return false;
@@ -286,6 +289,9 @@ orca_msgs__msg__FinalDetection__Sequence__copy(
     return false;
   }
   if (output->capacity < input->size) {
+    if (input->size > SIZE_MAX / sizeof(orca_msgs__msg__FinalDetection)) {
+      return false;
+    }
     const size_t allocation_size =
       input->size * sizeof(orca_msgs__msg__FinalDetection);
     rcutils_allocator_t allocator = rcutils_get_default_allocator();

@@ -75,6 +75,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/orca_msgs/orca_msgs" TYPE DIRECTORY FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -387,6 +391,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs" TYPE DIRECTORY FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_rs/orca_msgs/rust")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FinalDetection.idl")
 endif()
 
@@ -415,6 +423,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/src/orca_msgs/msg/FinalDetection.msg")
 endif()
 
@@ -440,6 +452,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/src/orca_msgs/msg/FlareSequence.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/msg" TYPE FILE FILES "/home/riovaldo/orca_ws/src/orca_msgs/msg/FailsafeTrigger.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -723,6 +739,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/cmake" TYPE FILE FILES "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orca_msgs/cmake" TYPE FILE FILES
     "/home/riovaldo/orca_ws/build/orca_msgs/ament_cmake_core/orca_msgsConfig.cmake"
     "/home/riovaldo/orca_ws/build/orca_msgs/ament_cmake_core/orca_msgsConfig-version.cmake"
@@ -736,6 +756,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/cmake_install.cmake")
+  include("/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__rs/cmake_install.cmake")
 
 endif()
 

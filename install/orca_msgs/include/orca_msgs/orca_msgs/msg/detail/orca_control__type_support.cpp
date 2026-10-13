@@ -38,7 +38,7 @@ void OrcaControl_fini_function(void * message_memory)
   typed_message->~OrcaControl();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember OrcaControl_message_member_array[8] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember OrcaControl_message_member_array[10] = {
   {
     "throttle",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
@@ -103,6 +103,42 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember OrcaControl_m
     0,  // array size
     false,  // is upper bound
     offsetof(orca_msgs::msg::OrcaControl, yaw),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "pitch",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(orca_msgs::msg::OrcaControl, pitch),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "roll",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(orca_msgs::msg::OrcaControl, roll),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -188,7 +224,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember OrcaControl_m
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers OrcaControl_message_members = {
   "orca_msgs::msg",  // message namespace
   "OrcaControl",  // message name
-  8,  // number of fields
+  10,  // number of fields
   sizeof(orca_msgs::msg::OrcaControl),
   false,  // has_any_key_member_
   OrcaControl_message_member_array,  // message members

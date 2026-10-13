@@ -14,6 +14,10 @@ module orca_msgs {
 
       int16 yaw;
 
+      int16 pitch;
+
+      int16 roll;
+
       string arm_mode;
 
       string control_mode;

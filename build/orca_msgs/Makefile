@@ -418,6 +418,91 @@ orca_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py.dir/build.make /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py.dir/build
 .PHONY : orca_msgs__py/fast
 
+#=============================================================================
+# Target rules for targets named orca_msgs__rs
+
+# Build rule for target.
+orca_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 orca_msgs__rs
+.PHONY : orca_msgs__rs
+
+# fast build rule for target.
+orca_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__rs/CMakeFiles/orca_msgs__rs.dir/build.make /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__rs/CMakeFiles/orca_msgs__rs.dir/build
+.PHONY : orca_msgs__rs/fast
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.o
+
+# target to build an object file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.i: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.i
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.s: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.s
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.o
+
+# target to build an object file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.i: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.i
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.s: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.s
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s: rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_c.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+.PHONY : rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+
 rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.o: rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o
 .PHONY : rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.o
 
@@ -994,6 +1079,30 @@ rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/orca_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.o: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.o
+
+# target to build an object file
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_py.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o
+
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.i: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_py.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i
+
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.s: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_py.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s
+.PHONY : rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s
+
 rosidl_generator_py/orca_msgs/msg/_final_detection_s.o: rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o
 .PHONY : rosidl_generator_py/orca_msgs/msg/_final_detection_s.o
 
@@ -1161,6 +1270,30 @@ rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.s: rosidl_generator_py/orca_
 rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_generator_py.dir/build.make CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.s
 .PHONY : rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.s
+
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.o: rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.i: rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.s: rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
 
 rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.o: rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.o
@@ -1330,6 +1463,30 @@ rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.cpp.s
 
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.o: rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o
+
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.i: rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.i
+
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.s: rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.s
+
 rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.o: rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.o
 
@@ -1497,6 +1654,30 @@ rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.s: rosidl_type
 rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.o: rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.i: rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.s: rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.o: rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.o
@@ -1666,6 +1847,30 @@ rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.o: rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.i: rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.s: rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.o: rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.o
 
@@ -1834,6 +2039,30 @@ rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.cpp.s
 
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o: rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o
+
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i: rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.i
+
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s: rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.s
+
 rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.o: rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.o
 
@@ -2001,6 +2230,30 @@ rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_sup
 rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.o: rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.i: rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.s: rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.o: rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.o
@@ -2189,6 +2442,7 @@ help:
 	@echo "... orca_msgs__cpp"
 	@echo "... orca_msgs__py"
 	@echo "... orca_msgs__rosidl_generator_type_description"
+	@echo "... orca_msgs__rs"
 	@echo "... orca_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... orca_msgs__rosidl_generator_c"
@@ -2202,6 +2456,15 @@ help:
 	@echo "... orca_msgs_s__rosidl_typesupport_c"
 	@echo "... orca_msgs_s__rosidl_typesupport_fastrtps_c"
 	@echo "... orca_msgs_s__rosidl_typesupport_introspection_c"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.o"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.i"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.s"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.o"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.i"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.s"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i"
+	@echo "... rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s"
 	@echo "... rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.o"
 	@echo "... rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.i"
 	@echo "... rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.s"
@@ -2274,6 +2537,9 @@ help:
 	@echo "... rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.o"
+	@echo "... rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.i"
+	@echo "... rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.s"
 	@echo "... rosidl_generator_py/orca_msgs/msg/_final_detection_s.o"
 	@echo "... rosidl_generator_py/orca_msgs/msg/_final_detection_s.i"
 	@echo "... rosidl_generator_py/orca_msgs/msg/_final_detection_s.s"
@@ -2295,6 +2561,9 @@ help:
 	@echo "... rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.o"
 	@echo "... rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.i"
 	@echo "... rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.s"
+	@echo "... rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.o"
+	@echo "... rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.i"
+	@echo "... rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.s"
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.o"
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.i"
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.s"
@@ -2316,6 +2585,9 @@ help:
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.o"
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.i"
 	@echo "... rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.s"
+	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.o"
+	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.i"
+	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.s"
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.o"
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.i"
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.s"
@@ -2337,6 +2609,9 @@ help:
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.o"
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.i"
 	@echo "... rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.s"
@@ -2358,6 +2633,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.s"
@@ -2379,6 +2657,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.s"
@@ -2400,6 +2681,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.s"

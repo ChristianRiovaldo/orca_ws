@@ -101,6 +101,11 @@ CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/flare_seque
 CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__struct.hpp
 CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__traits.hpp
 CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__type_support.hpp
+CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/failsafe_trigger.hpp
+CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__builder.hpp
+CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__struct.hpp
+CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__traits.hpp
+CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp
 CMakeFiles/orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -129,6 +134,7 @@ rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: rosidl_adapter/orca_msgs
 rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: rosidl_adapter/orca_msgs/msg/OrcaProximity.idl
 rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: rosidl_adapter/orca_msgs/msg/OrcaControl.idl
 rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: rosidl_adapter/orca_msgs/msg/FlareSequence.idl
+rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp: rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_cpp__arguments.json
 
@@ -234,10 +240,29 @@ rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__traits.hpp: rosidl_gen
 rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__type_support.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/detail/flare_sequence__type_support.hpp
 
+rosidl_generator_cpp/orca_msgs/msg/failsafe_trigger.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/failsafe_trigger.hpp
+
+rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__builder.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__builder.hpp
+
+rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__struct.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__struct.hpp
+
+rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__traits.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__traits.hpp
+
+rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp
+
 rosidl_generator_cpp/orca_msgs/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/orca_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 orca_msgs__cpp: CMakeFiles/orca_msgs__cpp
+orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__builder.hpp
+orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__struct.hpp
+orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__traits.hpp
+orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__builder.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__struct.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/final_detection__traits.hpp
@@ -266,6 +291,7 @@ orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__builde
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__struct.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__traits.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/detail/orca_proximity__type_support.hpp
+orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/failsafe_trigger.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/final_detection.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/flare_sequence.hpp
 orca_msgs__cpp: rosidl_generator_cpp/orca_msgs/msg/gate_detection.hpp

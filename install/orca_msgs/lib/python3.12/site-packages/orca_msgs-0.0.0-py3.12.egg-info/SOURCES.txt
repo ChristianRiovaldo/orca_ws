@@ -5,6 +5,7 @@ orca_msgs.egg-info/SOURCES.txt
 orca_msgs.egg-info/dependency_links.txt
 orca_msgs.egg-info/top_level.txt
 orca_msgs/msg/__init__.py
+orca_msgs/msg/_failsafe_trigger.py
 orca_msgs/msg/_final_detection.py
 orca_msgs/msg/_flare_sequence.py
 orca_msgs/msg/_gate_detection.py

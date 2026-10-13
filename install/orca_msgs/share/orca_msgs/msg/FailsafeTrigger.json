@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "orca_msgs/msg/FailsafeTrigger",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "orca_msgs/msg/FailsafeTrigger",
+      "hash_string": "RIHS01_2f9f7916724b754eb9840a7bd47b5bb9beccbea443fedd5464db644d310e69b0"
+    }
+  ]
+}

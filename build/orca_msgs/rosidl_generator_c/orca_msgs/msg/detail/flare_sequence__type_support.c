@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "orca_msgs/msg/detail/flare_sequence__struct.h"
+#include "orca_msgs/msg/detail/flare_sequence__type_support.h"
 #include "orca_msgs/msg/detail/flare_sequence__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "orca_msgs/msg/detail/flare_sequence__type_support.h"
-#include "orca_msgs/msg/detail/flare_sequence__struct.h"
 
 #ifdef __cplusplus
 extern "C"

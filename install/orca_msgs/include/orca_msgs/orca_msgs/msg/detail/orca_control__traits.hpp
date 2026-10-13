@@ -56,6 +56,20 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: pitch
+  {
+    out << "pitch: ";
+    rosidl_generator_traits::value_to_yaml(msg.pitch, out);
+    out << ", ";
+  }
+
+  // member: roll
+  {
+    out << "roll: ";
+    rosidl_generator_traits::value_to_yaml(msg.roll, out);
+    out << ", ";
+  }
+
   // member: arm_mode
   {
     out << "arm_mode: ";
@@ -126,6 +140,26 @@ inline void to_block_style_yaml(
     }
     out << "yaw: ";
     rosidl_generator_traits::value_to_yaml(msg.yaw, out);
+    out << "\n";
+  }
+
+  // member: pitch
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "pitch: ";
+    rosidl_generator_traits::value_to_yaml(msg.pitch, out);
+    out << "\n";
+  }
+
+  // member: roll
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "roll: ";
+    rosidl_generator_traits::value_to_yaml(msg.roll, out);
     out << "\n";
   }
 

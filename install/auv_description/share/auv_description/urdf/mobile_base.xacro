@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     
-<link name="base_footprint"/>
+<!-- Warna (oranye utama, hitam sekunder, thruster & cover hitam) ditentukan langsung di mesh .dae (bodyOnly, T200-CCW, T200-CW). -->
 
+<link name="base_footprint"/>
 <link name="base_link">
     <visual>
         <geometry>
@@ -49,8 +50,8 @@
 <xacro:CW_thruster_link prefix="4" o_xyz="0 0 0" o_rpy="0 0 0"/>
 <xacro:CCW_thruster_link prefix="5" o_xyz="0 0 0" o_rpy="3.14 0 0"/>
 <xacro:CW_thruster_link prefix="6" o_xyz="0 0 0" o_rpy="0 0 0"/>
-
-
+<xacro:CW_thruster_link prefix="7" o_xyz="0 0 0" o_rpy="0 0 0"/>
+<xacro:CCW_thruster_link prefix="8" o_xyz="0 0 0" o_rpy="3.14 0 0"/>
 
 <joint name="base_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -67,12 +68,17 @@
     </joint>
 </xacro:macro>
 
-<xacro:thruster_joint prefix="1" xyz="0.197328 -0.159266 -0.023741" rpy="0.0 0.0 2.32129" spin="1"/>
-<xacro:thruster_joint prefix="2" xyz="0.198609 0.156904 -0.024284" rpy="0.0 0.0 0.785398" spin="1"/>
-<xacro:thruster_joint prefix="3" xyz="-0.214792 -0.14094 -0.023889" rpy="0.0 0.0 3.9619" spin="-1"/>
-<xacro:thruster_joint prefix="4" xyz="-0.214464 0.140772 -0.024366" rpy="0.0 0.0 5.44543" spin="-1"/>
-<xacro:thruster_joint prefix="5" xyz="0.000688 -0.134737 0.017612" rpy="1.57 0 0" spin="-1"/> 
-<xacro:thruster_joint prefix="6" xyz="0.001233 0.133275 0.015892" rpy="1.5708 0 0" spin="-1"/>
-
+<xacro:thruster_joint prefix="1" xyz="0.177328 -0.159266 -0.023741" rpy="0.0 0.0 2.32129" spin="1"/>
+<xacro:thruster_joint prefix="2" xyz="0.178609 0.156904 -0.024284" rpy="0.0 0.0 0.785398" spin="1"/>
+<xacro:thruster_joint prefix="3" xyz="-0.194792 -0.14094 -0.023889" rpy="0.0 0.0 3.9619" spin="1"/>
+<xacro:thruster_joint prefix="4" xyz="-0.194464 0.140772 -0.024366" rpy="0.0 0.0 5.44543" spin="1"/>
+<!-- ===== Thruster vertikal (ArduSub VECTORED_6DOF) =====
+     5: depan-kanan | 6: depan-kiri | 7: belakang-kanan | 8: belakang-kiri
+     Posisi: x=+-0.080, y=+-0.1333, z=0.016 (pusat cover). Cover thruster 5-8 sudah menyatu di bodyOnly.dae pada posisi ini; jika posisi diubah, mesh body harus dibuat ulang.
+     Jangan ubah rpy / spin agar arah dorong tetap sesuai matriks motor ArduSub. -->
+<xacro:thruster_joint prefix="5" xyz=" 0.080 -0.1333 0.016" rpy="1.5708 0 0" spin="-1"/>
+<xacro:thruster_joint prefix="6" xyz=" 0.080  0.1333 0.016" rpy="1.5708 0 0" spin="-1"/>
+<xacro:thruster_joint prefix="7" xyz="-0.080 -0.1333 0.016" rpy="1.5708 0 0" spin="-1"/>
+<xacro:thruster_joint prefix="8" xyz="-0.080  0.1333 0.016" rpy="1.5708 0 0" spin="-1"/>
 
 </robot>

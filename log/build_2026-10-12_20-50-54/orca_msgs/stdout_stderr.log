@@ -1,0 +1,454 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/riovaldo/orca_ws/build/orca_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target orca_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_orca_msgs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__functions.c.o[0m
+[ 26%] [32m[1mLinking C shared library liborca_msgs__rosidl_generator_c.so[0m
+[ 26%] Built target orca_msgs__rosidl_generator_c
+running egg_info
+writing orca_msgs.egg-info/PKG-INFO
+writing dependency_links to orca_msgs.egg-info/dependency_links.txt
+writing top-level names to orca_msgs.egg-info/top_level.txt
+reading manifest file 'orca_msgs.egg-info/SOURCES.txt'
+writing manifest file 'orca_msgs.egg-info/SOURCES.txt'
+[ 26%] Built target ament_cmake_python_build_orca_msgs_egg
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_attitude__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_control__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/flare_sequence__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_depth__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/gate_detection__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_c.so[0m
+[ 35%] Built target orca_msgs__rosidl_typesupport_c
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 37%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_control__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_attitude__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_depth__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/gate_detection__type_support.c.o[0m
+[ 44%] [32m[1mLinking C shared library liborca_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 44%] Built target orca_msgs__rosidl_typesupport_introspection_c
+[ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_control__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/flare_sequence__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_attitude__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_depth__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/gate_detection__type_support_c.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 53%] Built target orca_msgs__rosidl_typesupport_fastrtps_c
+[ 53%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 53%] Built target orca_msgs__cpp
+[ 54%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[ 54%] Built target orca_msgs__rs
+[ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_control__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/flare_sequence__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_proximity__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_attitude__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_depth__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/gate_detection__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 64%] Built target orca_msgs__rosidl_typesupport_introspection_cpp
+[ 65%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_control__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_attitude__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_depth__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/gate_detection__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_cpp.so[0m
+[ 74%] Built target orca_msgs__rosidl_typesupport_cpp
+[ 75%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_depth__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/gate_detection__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/flare_sequence__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_control__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_attitude__type_support.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 84%] Built target orca_msgs__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target orca_msgs
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target orca_msgs__py
+[ 86%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_gate_detection_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_depth_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_control_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_attitude_s.c.o[0m
+[ 94%] [32m[1mLinking C shared library liborca_msgs__rosidl_generator_py.so[0m
+[ 94%] Built target orca_msgs__rosidl_generator_py
+[ 95%] [32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target orca_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target orca_msgs_s__rosidl_typesupport_c
+[100%] Built target orca_msgs_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/rosidl_interfaces/orca_msgs
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.json
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.json
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/flare_sequence.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_proximity.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/gate_detection.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/failsafe_trigger.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/final_detection.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__description.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__functions.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__functions.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__struct.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_depth.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_attitude.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_control.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/library_path.sh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/library_path.dsv
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_introspection_c.h
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/gate_detection.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_control.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_depth.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/final_detection.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/failsafe_trigger.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__traits.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__struct.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__builder.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_proximity.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_attitude.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/flare_sequence.hpp
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.cpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/__init__.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity.py
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection_s.c
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/__init__.py
+Listing '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/__init__.py'...
+Listing '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/__init__.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth.py'...
+Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity.py'...
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/Cargo.toml
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg.rs
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/lib.rs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg/rmw.rs
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/build.rs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.idl
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.idl
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.msg
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.msg
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/package_run_dependencies/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/parent_prefix_path/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/path.sh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/path.dsv
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.bash
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.sh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.zsh
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.dsv
+-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/package.dsv
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/packages/orca_msgs
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgsConfig.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgsConfig-version.cmake
+-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/package.xml

@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/riovaldo/orca_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riovaldo/orca_ws/build/auv_description -- -j8 -l8
+[0.061s] Invoked command in '/home/riovaldo/orca_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riovaldo/orca_ws/build/auv_description -- -j8 -l8
+[0.063s] Invoking command in '/home/riovaldo/orca_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riovaldo/orca_ws/build/auv_description
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base.xacro
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/auv.urdf.xacro
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/common_properties.xacro
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/sensor.xacro
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base_gazebo.xacro
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//launch
+[0.075s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//launch/display.launch.xml
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/Thruster_Conf.txt
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CW.dae
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CCW.dae
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/bodyOnly.dae
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//rviz
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//rviz/urdf_config.rviz
+[0.076s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/path.sh
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/path.dsv
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.bash
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.sh
+[0.077s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.zsh
+[0.078s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.dsv
+[0.079s] -- Installing: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/package.dsv
+[0.079s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description
+[0.079s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake
+[0.080s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake
+[0.080s] -- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/package.xml
+[0.100s] Invoked command in '/home/riovaldo/orca_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riovaldo/orca_ws/build/auv_description

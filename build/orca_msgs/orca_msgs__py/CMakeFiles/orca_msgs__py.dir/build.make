@@ -76,6 +76,7 @@ include /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msg
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_orca_proximity.py
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_orca_control.py
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_flare_sequence.py
+/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger.py
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/__init__.py
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_final_detection_s.c
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_gate_detection_s.c
@@ -84,6 +85,7 @@ include /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msg
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_orca_control_s.c
 /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c
+/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c
 
 rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -105,6 +107,7 @@ rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: r
 rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/orca_msgs/msg/OrcaProximity.idl
 rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/orca_msgs/msg/OrcaControl.idl
 rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/orca_msgs/msg/FlareSequence.idl
+rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -135,6 +138,9 @@ rosidl_generator_py/orca_msgs/msg/_orca_control.py: rosidl_generator_py/orca_msg
 rosidl_generator_py/orca_msgs/msg/_flare_sequence.py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/orca_msgs/msg/_flare_sequence.py
 
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger.py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/orca_msgs/msg/_failsafe_trigger.py
+
 rosidl_generator_py/orca_msgs/msg/__init__.py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/orca_msgs/msg/__init__.py
 
@@ -159,11 +165,16 @@ rosidl_generator_py/orca_msgs/msg/_orca_control_s.c: rosidl_generator_py/orca_ms
 rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c
 
+rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c
+
 orca_msgs__py: /home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py/CMakeFiles/orca_msgs__py
 orca_msgs__py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c
 orca_msgs__py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 orca_msgs__py: rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c
 orca_msgs__py: rosidl_generator_py/orca_msgs/msg/__init__.py
+orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger.py
+orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c
 orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_final_detection.py
 orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_final_detection_s.c
 orca_msgs__py: rosidl_generator_py/orca_msgs/msg/_flare_sequence.py

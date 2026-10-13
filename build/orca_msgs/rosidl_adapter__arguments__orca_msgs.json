@@ -7,6 +7,7 @@
     "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaAttitude.msg",
     "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaProximity.msg",
     "/home/riovaldo/orca_ws/src/orca_msgs:msg/OrcaControl.msg",
-    "/home/riovaldo/orca_ws/src/orca_msgs:msg/FlareSequence.msg"
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/FlareSequence.msg",
+    "/home/riovaldo/orca_ws/src/orca_msgs:msg/FailsafeTrigger.msg"
   ]
 }

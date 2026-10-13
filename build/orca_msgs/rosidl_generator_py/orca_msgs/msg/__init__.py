@@ -1,3 +1,4 @@
+from orca_msgs.msg._failsafe_trigger import FailsafeTrigger  # noqa: F401
 from orca_msgs.msg._final_detection import FinalDetection  # noqa: F401
 from orca_msgs.msg._flare_sequence import FlareSequence  # noqa: F401
 from orca_msgs.msg._gate_detection import GateDetection  # noqa: F401

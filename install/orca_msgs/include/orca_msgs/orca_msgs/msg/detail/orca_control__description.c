@@ -11,10 +11,10 @@ orca_msgs__msg__OrcaControl__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xc1, 0x12, 0xfb, 0x9f, 0x0a, 0xf2, 0x73, 0x80,
-      0x8f, 0xa8, 0xa2, 0x12, 0xd3, 0x50, 0xd5, 0x66,
-      0x46, 0x13, 0xbd, 0xe1, 0xaf, 0xa6, 0x9b, 0xc5,
-      0x04, 0xba, 0x49, 0x61, 0xc4, 0x36, 0x7b, 0x53,
+      0x6a, 0xff, 0x2b, 0xf1, 0xd4, 0xee, 0x30, 0x81,
+      0xea, 0x39, 0xe7, 0x08, 0xf2, 0x3a, 0x58, 0xb2,
+      0x14, 0x54, 0x19, 0xfb, 0xf1, 0x26, 0x47, 0x72,
+      0x91, 0xde, 0x63, 0xa4, 0xb3, 0x39, 0x59, 0x73,
     }};
   return &hash;
 }
@@ -35,6 +35,8 @@ static char orca_msgs__msg__OrcaControl__FIELD_NAME__throttle[] = "throttle";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__lateral[] = "lateral";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__forward[] = "forward";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__yaw[] = "yaw";
+static char orca_msgs__msg__OrcaControl__FIELD_NAME__pitch[] = "pitch";
+static char orca_msgs__msg__OrcaControl__FIELD_NAME__roll[] = "roll";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__arm_mode[] = "arm_mode";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__control_mode[] = "control_mode";
 static char orca_msgs__msg__OrcaControl__FIELD_NAME__gripper_mode[] = "gripper_mode";
@@ -73,6 +75,26 @@ static rosidl_runtime_c__type_description__Field orca_msgs__msg__OrcaControl__FI
   },
   {
     {orca_msgs__msg__OrcaControl__FIELD_NAME__yaw, 3, 3},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT16,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {orca_msgs__msg__OrcaControl__FIELD_NAME__pitch, 5, 5},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT16,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {orca_msgs__msg__OrcaControl__FIELD_NAME__roll, 4, 4},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT16,
       0,
@@ -132,7 +154,7 @@ orca_msgs__msg__OrcaControl__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {orca_msgs__msg__OrcaControl__TYPE_NAME, 25, 25},
-      {orca_msgs__msg__OrcaControl__FIELDS, 8, 8},
+      {orca_msgs__msg__OrcaControl__FIELDS, 10, 10},
     },
     {NULL, 0, 0},
   };
@@ -146,7 +168,11 @@ static char toplevel_type_raw_source[] =
   "int16 throttle\n"
   "int16 lateral\n"
   "int16 forward\n"
+  "\n"
   "int16 yaw\n"
+  "int16 pitch\n"
+  "int16 roll\n"
+  "\n"
   "string arm_mode\n"
   "string control_mode\n"
   "string gripper_mode\n"
@@ -164,7 +190,7 @@ orca_msgs__msg__OrcaControl__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {orca_msgs__msg__OrcaControl__TYPE_NAME, 25, 25},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 123, 123},
+    {toplevel_type_raw_source, 148, 148},
   };
   return &source;
 }

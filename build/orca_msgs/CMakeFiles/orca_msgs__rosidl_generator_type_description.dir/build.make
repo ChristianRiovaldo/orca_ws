@@ -73,6 +73,7 @@ CMakeFiles/orca_msgs__rosidl_generator_type_description: rosidl_generator_type_d
 CMakeFiles/orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/OrcaProximity.json
 CMakeFiles/orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/OrcaControl.json
 CMakeFiles/orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json
+CMakeFiles/orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json
 
 rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
@@ -83,6 +84,7 @@ rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: rosidl_adap
 rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: rosidl_adapter/orca_msgs/msg/OrcaProximity.idl
 rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: rosidl_adapter/orca_msgs/msg/OrcaControl.idl
 rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: rosidl_adapter/orca_msgs/msg/FlareSequence.idl
+rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json: rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description__arguments.json
 
@@ -104,7 +106,11 @@ rosidl_generator_type_description/orca_msgs/msg/OrcaControl.json: rosidl_generat
 rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json: rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json
 
+rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json: rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json
+
 orca_msgs__rosidl_generator_type_description: CMakeFiles/orca_msgs__rosidl_generator_type_description
+orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json
 orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json
 orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json
 orca_msgs__rosidl_generator_type_description: rosidl_generator_type_description/orca_msgs/msg/GateDetection.json

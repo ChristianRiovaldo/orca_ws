@@ -48,6 +48,12 @@ cdr_serialize(
   // Member: yaw
   cdr << ros_message.yaw;
 
+  // Member: pitch
+  cdr << ros_message.pitch;
+
+  // Member: roll
+  cdr << ros_message.roll;
+
   // Member: arm_mode
   cdr << ros_message.arm_mode;
 
@@ -80,6 +86,12 @@ cdr_deserialize(
 
   // Member: yaw
   cdr >> ros_message.yaw;
+
+  // Member: pitch
+  cdr >> ros_message.pitch;
+
+  // Member: roll
+  cdr >> ros_message.roll;
 
   // Member: arm_mode
   cdr >> ros_message.arm_mode;
@@ -134,6 +146,20 @@ get_serialized_size(
   // Member: yaw
   {
     size_t item_size = sizeof(ros_message.yaw);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: pitch
+  {
+    size_t item_size = sizeof(ros_message.pitch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: roll
+  {
+    size_t item_size = sizeof(ros_message.roll);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -203,6 +229,20 @@ max_serialized_size_OrcaControl(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
   }
   // Member: yaw
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint16_t);
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+  // Member: pitch
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint16_t);
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+  // Member: roll
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint16_t);
@@ -288,6 +328,12 @@ cdr_serialize_key(
   // Member: yaw
   cdr << ros_message.yaw;
 
+  // Member: pitch
+  cdr << ros_message.pitch;
+
+  // Member: roll
+  cdr << ros_message.roll;
+
   // Member: arm_mode
   cdr << ros_message.arm_mode;
 
@@ -340,6 +386,20 @@ get_serialized_size_key(
   // Member: yaw
   {
     size_t item_size = sizeof(ros_message.yaw);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: pitch
+  {
+    size_t item_size = sizeof(ros_message.pitch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: roll
+  {
+    size_t item_size = sizeof(ros_message.roll);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -411,6 +471,22 @@ max_serialized_size_key_OrcaControl(
   }
 
   // Member: yaw
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint16_t);
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+
+  // Member: pitch
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint16_t);
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+
+  // Member: roll
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint16_t);

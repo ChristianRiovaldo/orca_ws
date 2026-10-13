@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o"
+  "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o.d"
   "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp.o"
   "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp.o.d"
   "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/flare_sequence__type_support.cpp.o"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_proximity__type_support.cpp.o.d"
   "liborca_msgs__rosidl_typesupport_introspection_cpp.pdb"
   "liborca_msgs__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_introspection_cpp.hpp"

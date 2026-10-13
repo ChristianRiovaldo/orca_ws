@@ -1,3 +1,5 @@
+msg/FailsafeTrigger.idl
+msg/FailsafeTrigger.msg
 msg/FinalDetection.idl
 msg/FinalDetection.msg
 msg/FlareSequence.idl

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c"
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/__init__.py"
+  "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger.py"
+  "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c"
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_final_detection.py"
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c"
   "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_flare_sequence.py"

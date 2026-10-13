@@ -167,6 +167,20 @@ CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c -o CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.s
 
+CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o: CMakeFiles/orca_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o: rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c
+CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o: CMakeFiles/orca_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o -MF CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o.d -o CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o -c /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c
+
+CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c > CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.i
+
+CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c -o CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.s
+
 # Object files for target orca_msgs__rosidl_generator_py
 orca_msgs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o" \
@@ -175,7 +189,8 @@ orca_msgs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_attitude_s.c.o" \
 "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.o" \
 "CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_control_s.c.o" \
-"CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o"
+"CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o" \
+"CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o"
 
 # External object files for target orca_msgs__rosidl_generator_py
 orca_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -187,6 +202,7 @@ liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.
 liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.o
 liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_control_s.c.o
 liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o
+liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o
 liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/build.make
 liborca_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
 liborca_msgs__rosidl_generator_py.so: liborca_msgs__rosidl_typesupport_c.so
@@ -194,7 +210,7 @@ liborca_msgs__rosidl_generator_py.so: liborca_msgs__rosidl_generator_c.so
 liborca_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 liborca_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 liborca_msgs__rosidl_generator_py.so: CMakeFiles/orca_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library liborca_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/riovaldo/orca_ws/build/orca_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library liborca_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/orca_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

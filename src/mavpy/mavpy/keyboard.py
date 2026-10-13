@@ -4,14 +4,15 @@ import rclpy
 from rclpy.node import Node
 from orca_msgs.msg import OrcaControl
 
+
 class ROVTeleop(Node):
     def __init__(self):
         super().__init__('orca_keyboard_node')
         self.declare_parameter('manual_control_topic', '/orca/manual/control')
         self.declare_parameter('keyboard_publish_hz', 20.0)
         self.declare_parameter('keyboard_step_pwm', 10)
-        self.declare_parameter('keyboard_pwm_min', 1200)
-        self.declare_parameter('keyboard_pwm_max', 1800)
+        self.declare_parameter('keyboard_pwm_min', 1160)
+        self.declare_parameter('keyboard_pwm_max', 1840)
         self.declare_parameter('window_size', 120)
 
         self.topic_name = str(self.get_parameter('manual_control_topic').value)
@@ -26,15 +27,19 @@ class ROVTeleop(Node):
         pygame.display.set_caption('ORCA Keyboard Control')
 
         self.publisher_ = self.create_publisher(OrcaControl, self.topic_name, 10)
-        self.get_logger().info('Keyboard aktif. W/S forward, A/D lateral, panah yaw/throttle, J arm, K mode, L gripper.')
+        self.get_logger().info(
+            'Keyboard aktif. W/S forward, A/D lateral, panah yaw/throttle, '
+            'J arm, K mode, R open_right, C close, L open_left gripper'
+        )
 
         self.axis_pwm = {'forward': 1500, 'lateral': 1500, 'yaw': 1500, 'throttle': 1500}
         self.axis_dir = {'forward': 0, 'lateral': 0, 'yaw': 0, 'throttle': 0}
         self.arm_toggle = 'disarm'
         self.control_modes = ['MANUAL', 'ALT_HOLD']
         self.control_mode_idx = 0
-        self.gripper_toggle = 'open_grip'
 
+        self.gripper_states = ['open_right', 'close', 'open_left']
+        self.gripper_idx = 1
         self.create_timer(1.0 / max(1.0, self.publish_hz), self.key_callback)
 
     def key_callback(self):
@@ -46,8 +51,12 @@ class ROVTeleop(Node):
                     self.arm_toggle = 'arm' if self.arm_toggle == 'disarm' else 'disarm'
                 elif event.key == pygame.K_k:
                     self.control_mode_idx = (self.control_mode_idx + 1) % len(self.control_modes)
+                elif event.key == pygame.K_r:
+                    self.gripper_idx = 0  # open_right
+                elif event.key == pygame.K_c:
+                    self.gripper_idx = 1  # close
                 elif event.key == pygame.K_l:
-                    self.gripper_toggle = 'close_grip' if self.gripper_toggle == 'open_grip' else 'open_grip'
+                    self.gripper_idx = 2  # open_left
                 elif event.key == pygame.K_w:
                     self.axis_dir['forward'] = 1
                 elif event.key == pygame.K_s:
@@ -83,7 +92,7 @@ class ROVTeleop(Node):
         msg.throttle = self.axis_pwm['throttle']
         msg.arm_mode = self.arm_toggle
         msg.control_mode = self.control_modes[self.control_mode_idx]
-        msg.gripper_mode = self.gripper_toggle
+        msg.gripper_mode = self.gripper_states[self.gripper_idx]
         msg.source = 'manual_keyboard'
         self.publisher_.publish(msg)
 
@@ -104,7 +113,6 @@ class ROVTeleop(Node):
     def destroy_node(self):
         pygame.quit()
         super().destroy_node()
-
 
 def main(args=None):
     rclpy.init(args=args)

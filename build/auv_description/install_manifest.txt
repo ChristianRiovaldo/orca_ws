@@ -1,12 +1,12 @@
-/home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/common_properties.xacro
-/home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/auv.urdf.xacro
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base.xacro
+/home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/auv.urdf.xacro
+/home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/common_properties.xacro
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/sensor.xacro
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base_gazebo.xacro
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//launch/display.launch.xml
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/Thruster_Conf.txt
-/home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CCW.dae
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CW.dae
+/home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CCW.dae
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/bodyOnly.dae
 /home/riovaldo/orca_ws/install/auv_description/share/auv_description//rviz/urdf_config.rviz
 /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description

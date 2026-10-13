@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "orca_msgs__rs",
+		"source" : "/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__rs"
+	}
+}

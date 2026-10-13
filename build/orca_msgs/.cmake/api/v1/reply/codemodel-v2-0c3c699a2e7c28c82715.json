@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3dd2406a99579083cde3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "orca_msgs__py",
+					"jsonFile" : "directory-orca_msgs__py-7dd3f1a0dbb3ebe618b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "orca_msgs__rs",
+					"jsonFile" : "directory-orca_msgs__rs-ac9a4fe458c7de5672cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/riovaldo/orca_ws/build/orca_msgs/orca_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "orca_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_orca_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_orca_msgs_egg-a7d95aa79529afb70a41.json",
+					"name" : "ament_cmake_python_build_orca_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_orca_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_orca_msgs-129afb8bea505f6a36ac.json",
+					"name" : "ament_cmake_python_copy_orca_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs-ad860bfb2f729a475c0d.json",
+					"name" : "orca_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__cpp-c037fb18816b33450abb.json",
+					"name" : "orca_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "orca_msgs__py::@294629133e9f8e13e4eb",
+					"jsonFile" : "target-orca_msgs__py-63f0b778c6fff035976e.json",
+					"name" : "orca_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_generator_c-0bd7055c2aebe1701c9b.json",
+					"name" : "orca_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_generator_py-711a38164ad5af51c446.json",
+					"name" : "orca_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_generator_type_description-9356d8bd06f8797fa0d2.json",
+					"name" : "orca_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_c-2e02ec281aee734c51a6.json",
+					"name" : "orca_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_cpp-b7e1eab547d5bed4c729.json",
+					"name" : "orca_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_fastrtps_c-bd8955e1d882cd0c8146.json",
+					"name" : "orca_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_fastrtps_cpp-ffef76d4d3bd95c1e0fc.json",
+					"name" : "orca_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_introspection_c-53657960dc0379379c0e.json",
+					"name" : "orca_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs__rosidl_typesupport_introspection_cpp-9f9238284a8c48aace8c.json",
+					"name" : "orca_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "orca_msgs__rs::@58ff9ea304be952f94a0",
+					"jsonFile" : "target-orca_msgs__rs-5f6077685764edc01e10.json",
+					"name" : "orca_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs_s__rosidl_typesupport_c-54e9ccc7666121c7f09e.json",
+					"name" : "orca_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs_s__rosidl_typesupport_fastrtps_c-d872d15d9e3af432b2b0.json",
+					"name" : "orca_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs_s__rosidl_typesupport_introspection_c-1068d60731930a49d7ce.json",
+					"name" : "orca_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orca_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orca_msgs_uninstall-4b116e820197c06fbf97.json",
+					"name" : "orca_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-25031ff09cf1be819a06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/riovaldo/orca_ws/build/orca_msgs",
+		"source" : "/home/riovaldo/orca_ws/src/orca_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

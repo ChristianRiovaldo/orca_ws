@@ -38,7 +38,7 @@ void orca_msgs__msg__OrcaControl__rosidl_typesupport_introspection_c__OrcaContro
   orca_msgs__msg__OrcaControl__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember orca_msgs__msg__OrcaControl__rosidl_typesupport_introspection_c__OrcaControl_message_member_array[8] = {
+static rosidl_typesupport_introspection_c__MessageMember orca_msgs__msg__OrcaControl__rosidl_typesupport_introspection_c__OrcaControl_message_member_array[10] = {
   {
     "throttle",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
@@ -103,6 +103,42 @@ static rosidl_typesupport_introspection_c__MessageMember orca_msgs__msg__OrcaCon
     0,  // array size
     false,  // is upper bound
     offsetof(orca_msgs__msg__OrcaControl, yaw),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pitch",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(orca_msgs__msg__OrcaControl, pitch),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "roll",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(orca_msgs__msg__OrcaControl, roll),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -188,7 +224,7 @@ static rosidl_typesupport_introspection_c__MessageMember orca_msgs__msg__OrcaCon
 static const rosidl_typesupport_introspection_c__MessageMembers orca_msgs__msg__OrcaControl__rosidl_typesupport_introspection_c__OrcaControl_message_members = {
   "orca_msgs__msg",  // message namespace
   "OrcaControl",  // message name
-  8,  // number of fields
+  10,  // number of fields
   sizeof(orca_msgs__msg__OrcaControl),
   false,  // has_any_key_member_
   orca_msgs__msg__OrcaControl__rosidl_typesupport_introspection_c__OrcaControl_message_member_array,  // message members

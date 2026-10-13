@@ -1,0 +1,816 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (auv_bringup) JobQueued: {'identifier': 'auv_bringup', 'dependencies': OrderedDict()}
+[0.000529] (auv_description) JobQueued: {'identifier': 'auv_description', 'dependencies': OrderedDict()}
+[0.000549] (orca_msgs) JobQueued: {'identifier': 'orca_msgs', 'dependencies': OrderedDict()}
+[0.000564] (mavpy) JobQueued: {'identifier': 'mavpy', 'dependencies': OrderedDict({'orca_msgs': '/home/riovaldo/orca_ws/install/orca_msgs'})}
+[0.000628] (orca_msgs) JobStarted: {'identifier': 'orca_msgs'}
+[0.007530] (auv_bringup) JobStarted: {'identifier': 'auv_bringup'}
+[0.010990] (auv_description) JobStarted: {'identifier': 'auv_description'}
+[0.015455] (orca_msgs) JobProgress: {'identifier': 'orca_msgs', 'progress': 'cmake'}
+[0.016035] (orca_msgs) JobProgress: {'identifier': 'orca_msgs', 'progress': 'build'}
+[0.016674] (orca_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riovaldo/orca_ws/build/orca_msgs', '--', '-j8', '-l8'], 'cwd': '/home/riovaldo/orca_ws/build/orca_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/orca_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[0.018982] (auv_bringup) JobProgress: {'identifier': 'auv_bringup', 'progress': 'cmake'}
+[0.019415] (auv_bringup) JobProgress: {'identifier': 'auv_bringup', 'progress': 'build'}
+[0.019816] (auv_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riovaldo/orca_ws/build/auv_bringup', '--', '-j8', '-l8'], 'cwd': '/home/riovaldo/orca_ws/build/auv_bringup', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/auv_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[0.022815] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'cmake'}
+[0.023533] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'build'}
+[0.024206] (auv_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riovaldo/orca_ws/build/auv_description', '--', '-j8', '-l8'], 'cwd': '/home/riovaldo/orca_ws/build/auv_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/auv_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[0.050772] (orca_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.059754] (auv_bringup) CommandEnded: {'returncode': 0}
+[0.060585] (auv_bringup) JobProgress: {'identifier': 'auv_bringup', 'progress': 'install'}
+[0.069347] (auv_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riovaldo/orca_ws/build/auv_bringup'], 'cwd': '/home/riovaldo/orca_ws/build/auv_bringup', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/auv_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[0.070636] (auv_description) CommandEnded: {'returncode': 0}
+[0.071232] (auv_description) JobProgress: {'identifier': 'auv_description', 'progress': 'install'}
+[0.071655] (auv_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riovaldo/orca_ws/build/auv_description'], 'cwd': '/home/riovaldo/orca_ws/build/auv_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/auv_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[0.077501] (auv_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.078164] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch\n'}
+[0.078462] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/perintah_run_ardupilot.txt\n'}
+[0.078701] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//launch/auv_gazebo.launch.xml\n'}
+[0.078854] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//config\n'}
+[0.078999] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//config/gazebo_bridge.yaml\n'}
+[0.079140] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds\n'}
+[0.079280] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_qualification.sdf\n'}
+[0.079451] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup//worlds/world_final.sdf\n'}
+[0.079594] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/package_run_dependencies/auv_bringup\n'}
+[0.079868] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/parent_prefix_path/auv_bringup\n'}
+[0.079993] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/ament_prefix_path.sh\n'}
+[0.080270] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/ament_prefix_path.dsv\n'}
+[0.080494] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/path.sh\n'}
+[0.080581] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/environment/path.dsv\n'}
+[0.080735] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.bash\n'}
+[0.081222] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.sh\n'}
+[0.081375] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.zsh\n'}
+[0.081569] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/local_setup.dsv\n'}
+[0.081669] (auv_bringup) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/package.dsv\n'}
+[0.081762] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/ament_index/resource_index/packages/auv_bringup\n'}
+[0.081911] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/cmake/auv_bringupConfig.cmake\n'}
+[0.082205] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/cmake/auv_bringupConfig-version.cmake\n'}
+[0.082320] (auv_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_bringup/share/auv_bringup/package.xml\n'}
+[0.082510] (auv_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.082716] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf\n'}
+[0.082956] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base.xacro\n'}
+[0.083063] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/auv.urdf.xacro\n'}
+[0.083331] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/common_properties.xacro\n'}
+[0.083489] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/sensor.xacro\n'}
+[0.083674] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//urdf/mobile_base_gazebo.xacro\n'}
+[0.083807] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//launch\n'}
+[0.083968] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//launch/display.launch.xml\n'}
+[0.084092] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes\n'}
+[0.084221] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/Thruster_Conf.txt\n'}
+[0.084376] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CW.dae\n'}
+[0.084470] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/T200-CCW.dae\n'}
+[0.084603] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//meshes/bodyOnly.dae\n'}
+[0.084705] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//rviz\n'}
+[0.085062] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description//rviz/urdf_config.rviz\n'}
+[0.085165] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description\n'}
+[0.085307] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description\n'}
+[0.085480] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh\n'}
+[0.085582] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv\n'}
+[0.085703] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/path.sh\n'}
+[0.085816] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/environment/path.dsv\n'}
+[0.085951] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.bash\n'}
+[0.086051] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.sh\n'}
+[0.086758] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.zsh\n'}
+[0.086863] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/local_setup.dsv\n'}
+[0.087164] (auv_description) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/package.dsv\n'}
+[0.087255] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description\n'}
+[0.087486] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake\n'}
+[0.087619] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake\n'}
+[0.087725] (auv_description) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/auv_description/share/auv_description/package.xml\n'}
+[0.087855] (auv_bringup) CommandEnded: {'returncode': 0}
+[0.099200] (-) TimerEvent: {}
+[0.100485] (auv_bringup) JobEnded: {'identifier': 'auv_bringup', 'rc': 0}
+[0.101540] (auv_description) CommandEnded: {'returncode': 0}
+[0.111949] (auv_description) JobEnded: {'identifier': 'auv_description', 'rc': 0}
+[0.182542] (orca_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.186611] (orca_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199331] (-) TimerEvent: {}
+[0.254605] (orca_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.289908] (orca_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.299442] (-) TimerEvent: {}
+[0.399828] (-) TimerEvent: {}
+[0.500125] (-) TimerEvent: {}
+[0.600449] (-) TimerEvent: {}
+[0.653431] (orca_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.700661] (-) TimerEvent: {}
+[0.801124] (-) TimerEvent: {}
+[0.821127] (orca_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901266] (-) TimerEvent: {}
+[1.001720] (-) TimerEvent: {}
+[1.065451] (orca_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.068099] (orca_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.101915] (-) TimerEvent: {}
+[1.202385] (-) TimerEvent: {}
+[1.302762] (-) TimerEvent: {}
+[1.403083] (-) TimerEvent: {}
+[1.503544] (-) TimerEvent: {}
+[1.519278] (orca_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.596679] (orca_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.603646] (-) TimerEvent: {}
+[1.614345] (orca_msgs) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.699778] (orca_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.703741] (-) TimerEvent: {}
+[1.713225] (orca_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/riovaldo/orca_ws/build/orca_msgs\n'}
+[1.761780] (orca_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.803971] (-) TimerEvent: {}
+[1.904418] (-) TimerEvent: {}
+[2.004799] (-) TimerEvent: {}
+[2.105130] (-) TimerEvent: {}
+[2.166265] (orca_msgs) StdoutLine: {'line': b'[  1%] Built target orca_msgs__rosidl_generator_type_description\n'}
+[2.205296] (-) TimerEvent: {}
+[2.219018] (orca_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_orca_msgs\n'}
+[2.239466] (orca_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.305490] (-) TimerEvent: {}
+[2.406305] (-) TimerEvent: {}
+[2.506782] (-) TimerEvent: {}
+[2.607118] (-) TimerEvent: {}
+[2.707453] (-) TimerEvent: {}
+[2.807779] (-) TimerEvent: {}
+[2.908055] (-) TimerEvent: {}
+[3.008490] (-) TimerEvent: {}
+[3.108973] (-) TimerEvent: {}
+[3.209407] (-) TimerEvent: {}
+[3.309879] (-) TimerEvent: {}
+[3.410294] (-) TimerEvent: {}
+[3.510712] (-) TimerEvent: {}
+[3.611309] (-) TimerEvent: {}
+[3.711758] (-) TimerEvent: {}
+[3.727328] (orca_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__description.c.o\x1b[0m\n'}
+[3.807640] (orca_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__functions.c.o\x1b[0m\n'}
+[3.811894] (-) TimerEvent: {}
+[3.893072] (orca_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__type_support.c.o\x1b[0m\n'}
+[3.912043] (-) TimerEvent: {}
+[3.946475] (orca_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__description.c.o\x1b[0m\n'}
+[4.007210] (orca_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__functions.c.o\x1b[0m\n'}
+[4.012154] (-) TimerEvent: {}
+[4.081118] (orca_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_depth__type_support.c.o\x1b[0m\n'}
+[4.112377] (-) TimerEvent: {}
+[4.132605] (orca_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__description.c.o\x1b[0m\n'}
+[4.191052] (orca_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__functions.c.o\x1b[0m\n'}
+[4.212460] (-) TimerEvent: {}
+[4.240268] (orca_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__type_support.c.o\x1b[0m\n'}
+[4.267526] (orca_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__description.c.o\x1b[0m\n'}
+[4.302937] (orca_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__functions.c.o\x1b[0m\n'}
+[4.312590] (-) TimerEvent: {}
+[4.377218] (orca_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_proximity__type_support.c.o\x1b[0m\n'}
+[4.410892] (orca_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__description.c.o\x1b[0m\n'}
+[4.412686] (-) TimerEvent: {}
+[4.459553] (orca_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__functions.c.o\x1b[0m\n'}
+[4.512829] (-) TimerEvent: {}
+[4.539628] (orca_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/orca_control__type_support.c.o\x1b[0m\n'}
+[4.574313] (orca_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__description.c.o\x1b[0m\n'}
+[4.610095] (orca_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__functions.c.o\x1b[0m\n'}
+[4.612902] (-) TimerEvent: {}
+[4.687077] (orca_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o\x1b[0m\n'}
+[4.713057] (-) TimerEvent: {}
+[4.737869] (orca_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__description.c.o\x1b[0m\n'}
+[4.792216] (orca_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__functions.c.o\x1b[0m\n'}
+[4.813178] (-) TimerEvent: {}
+[4.837157] (orca_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o\x1b[0m\n'}
+[4.884030] (orca_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/gate_detection__description.c.o\x1b[0m\n'}
+[4.913426] (-) TimerEvent: {}
+[4.948628] (orca_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__type_support.c.o\x1b[0m\n'}
+[4.999913] (orca_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_c.dir/rosidl_generator_c/orca_msgs/msg/detail/final_detection__functions.c.o\x1b[0m\n'}
+[5.013550] (-) TimerEvent: {}
+[5.062350] (orca_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library liborca_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.113702] (-) TimerEvent: {}
+[5.129664] (orca_msgs) StdoutLine: {'line': b'[ 26%] Built target orca_msgs__rosidl_generator_c\n'}
+[5.213824] (-) TimerEvent: {}
+[5.314212] (-) TimerEvent: {}
+[5.382037] (orca_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.401749] (orca_msgs) StdoutLine: {'line': b'writing orca_msgs.egg-info/PKG-INFO\n'}
+[5.402385] (orca_msgs) StdoutLine: {'line': b'writing dependency_links to orca_msgs.egg-info/dependency_links.txt\n'}
+[5.402630] (orca_msgs) StdoutLine: {'line': b'writing top-level names to orca_msgs.egg-info/top_level.txt\n'}
+[5.414363] (-) TimerEvent: {}
+[5.458303] (orca_msgs) StdoutLine: {'line': b"reading manifest file 'orca_msgs.egg-info/SOURCES.txt'\n"}
+[5.459111] (orca_msgs) StdoutLine: {'line': b"writing manifest file 'orca_msgs.egg-info/SOURCES.txt'\n"}
+[5.487618] (orca_msgs) StdoutLine: {'line': b'[ 26%] Built target ament_cmake_python_build_orca_msgs_egg\n'}
+[5.498481] (orca_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.514474] (-) TimerEvent: {}
+[5.614858] (-) TimerEvent: {}
+[5.715245] (-) TimerEvent: {}
+[5.815534] (-) TimerEvent: {}
+[5.915502] (orca_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/final_detection__type_support.cpp.o\x1b[0m\n'}
+[5.915854] (-) TimerEvent: {}
+[5.985130] (orca_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_attitude__type_support.cpp.o\x1b[0m\n'}
+[6.016087] (-) TimerEvent: {}
+[6.051754] (orca_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_proximity__type_support.cpp.o\x1b[0m\n'}
+[6.112276] (orca_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_control__type_support.cpp.o\x1b[0m\n'}
+[6.116213] (-) TimerEvent: {}
+[6.189558] (orca_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/flare_sequence__type_support.cpp.o\x1b[0m\n'}
+[6.216448] (-) TimerEvent: {}
+[6.255205] (orca_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/failsafe_trigger__type_support.cpp.o\x1b[0m\n'}
+[6.316569] (-) TimerEvent: {}
+[6.325136] (orca_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/orca_depth__type_support.cpp.o\x1b[0m\n'}
+[6.367171] (orca_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orca_msgs/msg/gate_detection__type_support.cpp.o\x1b[0m\n'}
+[6.412861] (orca_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.416648] (-) TimerEvent: {}
+[6.477450] (orca_msgs) StdoutLine: {'line': b'[ 35%] Built target orca_msgs__rosidl_typesupport_c\n'}
+[6.496658] (orca_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.516767] (-) TimerEvent: {}
+[6.617090] (-) TimerEvent: {}
+[6.717400] (-) TimerEvent: {}
+[6.817685] (-) TimerEvent: {}
+[6.918001] (-) TimerEvent: {}
+[7.018314] (-) TimerEvent: {}
+[7.118786] (-) TimerEvent: {}
+[7.143522] (orca_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/final_detection__type_support.c.o\x1b[0m\n'}
+[7.206028] (orca_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_proximity__type_support.c.o\x1b[0m\n'}
+[7.218919] (-) TimerEvent: {}
+[7.266966] (orca_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_control__type_support.c.o\x1b[0m\n'}
+[7.319051] (-) TimerEvent: {}
+[7.332154] (orca_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/flare_sequence__type_support.c.o\x1b[0m\n'}
+[7.392827] (orca_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/failsafe_trigger__type_support.c.o\x1b[0m\n'}
+[7.419190] (-) TimerEvent: {}
+[7.456309] (orca_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_attitude__type_support.c.o\x1b[0m\n'}
+[7.519355] (-) TimerEvent: {}
+[7.519827] (orca_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/orca_depth__type_support.c.o\x1b[0m\n'}
+[7.579855] (orca_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orca_msgs/msg/detail/gate_detection__type_support.c.o\x1b[0m\n'}
+[7.619489] (-) TimerEvent: {}
+[7.640192] (orca_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library liborca_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.699870] (orca_msgs) StdoutLine: {'line': b'[ 44%] Built target orca_msgs__rosidl_typesupport_introspection_c\n'}
+[7.719477] (orca_msgs) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.719893] (-) TimerEvent: {}
+[7.820180] (-) TimerEvent: {}
+[7.920521] (-) TimerEvent: {}
+[8.020816] (-) TimerEvent: {}
+[8.121098] (-) TimerEvent: {}
+[8.221576] (-) TimerEvent: {}
+[8.321937] (-) TimerEvent: {}
+[8.422331] (-) TimerEvent: {}
+[8.522767] (-) TimerEvent: {}
+[8.548676] (orca_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/final_detection__type_support_c.cpp.o\x1b[0m\n'}
+[8.622986] (-) TimerEvent: {}
+[8.723468] (-) TimerEvent: {}
+[8.823883] (-) TimerEvent: {}
+[8.924311] (-) TimerEvent: {}
+[9.024678] (-) TimerEvent: {}
+[9.060857] (orca_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_control__type_support_c.cpp.o\x1b[0m\n'}
+[9.124897] (-) TimerEvent: {}
+[9.225351] (-) TimerEvent: {}
+[9.325775] (-) TimerEvent: {}
+[9.426203] (-) TimerEvent: {}
+[9.516650] (orca_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/flare_sequence__type_support_c.cpp.o\x1b[0m\n'}
+[9.526402] (-) TimerEvent: {}
+[9.626785] (-) TimerEvent: {}
+[9.727136] (-) TimerEvent: {}
+[9.827445] (-) TimerEvent: {}
+[9.927777] (-) TimerEvent: {}
+[9.939209] (orca_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/failsafe_trigger__type_support_c.cpp.o\x1b[0m\n'}
+[10.027967] (-) TimerEvent: {}
+[10.128300] (-) TimerEvent: {}
+[10.228582] (-) TimerEvent: {}
+[10.328988] (-) TimerEvent: {}
+[10.349781] (orca_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_proximity__type_support_c.cpp.o\x1b[0m\n'}
+[10.429185] (-) TimerEvent: {}
+[10.529581] (-) TimerEvent: {}
+[10.629912] (-) TimerEvent: {}
+[10.730270] (-) TimerEvent: {}
+[10.783466] (orca_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_attitude__type_support_c.cpp.o\x1b[0m\n'}
+[10.830433] (-) TimerEvent: {}
+[10.930829] (-) TimerEvent: {}
+[11.031262] (-) TimerEvent: {}
+[11.131762] (-) TimerEvent: {}
+[11.196452] (orca_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/orca_depth__type_support_c.cpp.o\x1b[0m\n'}
+[11.231968] (-) TimerEvent: {}
+[11.332421] (-) TimerEvent: {}
+[11.432780] (-) TimerEvent: {}
+[11.533163] (-) TimerEvent: {}
+[11.631610] (orca_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orca_msgs/msg/detail/gate_detection__type_support_c.cpp.o\x1b[0m\n'}
+[11.633259] (-) TimerEvent: {}
+[11.733496] (-) TimerEvent: {}
+[11.833915] (-) TimerEvent: {}
+[11.934362] (-) TimerEvent: {}
+[12.034643] (-) TimerEvent: {}
+[12.069936] (orca_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.134841] (-) TimerEvent: {}
+[12.176037] (orca_msgs) StdoutLine: {'line': b'[ 53%] Built target orca_msgs__rosidl_typesupport_fastrtps_c\n'}
+[12.210168] (orca_msgs) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.234977] (-) TimerEvent: {}
+[12.335408] (-) TimerEvent: {}
+[12.435852] (-) TimerEvent: {}
+[12.536174] (-) TimerEvent: {}
+[12.636463] (-) TimerEvent: {}
+[12.736842] (-) TimerEvent: {}
+[12.837192] (-) TimerEvent: {}
+[12.937605] (-) TimerEvent: {}
+[13.038038] (-) TimerEvent: {}
+[13.138620] (-) TimerEvent: {}
+[13.239151] (-) TimerEvent: {}
+[13.304937] (orca_msgs) StdoutLine: {'line': b'[ 53%] Built target orca_msgs__cpp\n'}
+[13.339308] (-) TimerEvent: {}
+[13.342534] (orca_msgs) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[13.439473] (-) TimerEvent: {}
+[13.539843] (-) TimerEvent: {}
+[13.640178] (-) TimerEvent: {}
+[13.724598] (orca_msgs) StdoutLine: {'line': b'[ 54%] Built target orca_msgs__rs\n'}
+[13.738307] (orca_msgs) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.740315] (-) TimerEvent: {}
+[13.840687] (-) TimerEvent: {}
+[13.941176] (-) TimerEvent: {}
+[14.041563] (-) TimerEvent: {}
+[14.141865] (-) TimerEvent: {}
+[14.242219] (-) TimerEvent: {}
+[14.342667] (-) TimerEvent: {}
+[14.403148] (orca_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/final_detection__type_support.cpp.o\x1b[0m\n'}
+[14.442873] (-) TimerEvent: {}
+[14.543345] (-) TimerEvent: {}
+[14.643656] (-) TimerEvent: {}
+[14.710162] (orca_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_control__type_support.cpp.o\x1b[0m\n'}
+[14.743875] (-) TimerEvent: {}
+[14.844240] (-) TimerEvent: {}
+[14.944639] (-) TimerEvent: {}
+[15.016617] (orca_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/flare_sequence__type_support.cpp.o\x1b[0m\n'}
+[15.044822] (-) TimerEvent: {}
+[15.145206] (-) TimerEvent: {}
+[15.245659] (-) TimerEvent: {}
+[15.302490] (orca_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp.o\x1b[0m\n'}
+[15.345828] (-) TimerEvent: {}
+[15.446373] (-) TimerEvent: {}
+[15.546759] (-) TimerEvent: {}
+[15.609514] (orca_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_proximity__type_support.cpp.o\x1b[0m\n'}
+[15.646880] (-) TimerEvent: {}
+[15.747302] (-) TimerEvent: {}
+[15.847969] (-) TimerEvent: {}
+[15.884594] (orca_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_attitude__type_support.cpp.o\x1b[0m\n'}
+[15.948173] (-) TimerEvent: {}
+[16.048467] (-) TimerEvent: {}
+[16.148749] (-) TimerEvent: {}
+[16.160405] (orca_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/orca_depth__type_support.cpp.o\x1b[0m\n'}
+[16.248947] (-) TimerEvent: {}
+[16.349384] (-) TimerEvent: {}
+[16.436628] (orca_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orca_msgs/msg/detail/gate_detection__type_support.cpp.o\x1b[0m\n'}
+[16.449574] (-) TimerEvent: {}
+[16.550005] (-) TimerEvent: {}
+[16.650428] (-) TimerEvent: {}
+[16.722445] (orca_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.750563] (-) TimerEvent: {}
+[16.818454] (orca_msgs) StdoutLine: {'line': b'[ 64%] Built target orca_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.831294] (orca_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.850687] (-) TimerEvent: {}
+[16.951112] (-) TimerEvent: {}
+[17.051421] (-) TimerEvent: {}
+[17.151730] (-) TimerEvent: {}
+[17.252117] (-) TimerEvent: {}
+[17.314822] (orca_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/final_detection__type_support.cpp.o\x1b[0m\n'}
+[17.352405] (-) TimerEvent: {}
+[17.452779] (-) TimerEvent: {}
+[17.553181] (-) TimerEvent: {}
+[17.632507] (orca_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/flare_sequence__type_support.cpp.o\x1b[0m\n'}
+[17.653396] (-) TimerEvent: {}
+[17.753883] (-) TimerEvent: {}
+[17.854429] (-) TimerEvent: {}
+[17.941398] (orca_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/failsafe_trigger__type_support.cpp.o\x1b[0m\n'}
+[17.954543] (-) TimerEvent: {}
+[18.054861] (-) TimerEvent: {}
+[18.155256] (-) TimerEvent: {}
+[18.245841] (orca_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_control__type_support.cpp.o\x1b[0m\n'}
+[18.255461] (-) TimerEvent: {}
+[18.355866] (-) TimerEvent: {}
+[18.456301] (-) TimerEvent: {}
+[18.550120] (orca_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_proximity__type_support.cpp.o\x1b[0m\n'}
+[18.556355] (-) TimerEvent: {}
+[18.656737] (-) TimerEvent: {}
+[18.757121] (-) TimerEvent: {}
+[18.857472] (-) TimerEvent: {}
+[18.866487] (orca_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_attitude__type_support.cpp.o\x1b[0m\n'}
+[18.957688] (-) TimerEvent: {}
+[19.058066] (-) TimerEvent: {}
+[19.143885] (orca_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/orca_depth__type_support.cpp.o\x1b[0m\n'}
+[19.158212] (-) TimerEvent: {}
+[19.258658] (-) TimerEvent: {}
+[19.359074] (-) TimerEvent: {}
+[19.444207] (orca_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orca_msgs/msg/gate_detection__type_support.cpp.o\x1b[0m\n'}
+[19.459216] (-) TimerEvent: {}
+[19.559666] (-) TimerEvent: {}
+[19.660117] (-) TimerEvent: {}
+[19.745525] (orca_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.760261] (-) TimerEvent: {}
+[19.791057] (orca_msgs) StdoutLine: {'line': b'[ 74%] Built target orca_msgs__rosidl_typesupport_cpp\n'}
+[19.803072] (orca_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.860473] (-) TimerEvent: {}
+[19.960906] (-) TimerEvent: {}
+[20.061299] (-) TimerEvent: {}
+[20.161700] (-) TimerEvent: {}
+[20.262049] (-) TimerEvent: {}
+[20.362479] (-) TimerEvent: {}
+[20.448926] (orca_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/final_detection__type_support.cpp.o\x1b[0m\n'}
+[20.449520] (orca_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_depth__type_support.cpp.o\x1b[0m\n'}
+[20.449814] (orca_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/gate_detection__type_support.cpp.o\x1b[0m\n'}
+[20.462620] (-) TimerEvent: {}
+[20.563128] (-) TimerEvent: {}
+[20.663537] (-) TimerEvent: {}
+[20.763896] (-) TimerEvent: {}
+[20.864342] (-) TimerEvent: {}
+[20.913618] (orca_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/failsafe_trigger__type_support.cpp.o\x1b[0m\n'}
+[20.933202] (orca_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/flare_sequence__type_support.cpp.o\x1b[0m\n'}
+[20.933496] (orca_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_control__type_support.cpp.o\x1b[0m\n'}
+[20.964467] (-) TimerEvent: {}
+[21.064855] (-) TimerEvent: {}
+[21.165278] (-) TimerEvent: {}
+[21.265690] (-) TimerEvent: {}
+[21.353253] (orca_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_proximity__type_support.cpp.o\x1b[0m\n'}
+[21.365822] (-) TimerEvent: {}
+[21.377323] (orca_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/orca_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orca_msgs/msg/detail/dds_fastrtps/orca_attitude__type_support.cpp.o\x1b[0m\n'}
+[21.465952] (-) TimerEvent: {}
+[21.566454] (-) TimerEvent: {}
+[21.666840] (-) TimerEvent: {}
+[21.767226] (-) TimerEvent: {}
+[21.818499] (orca_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library liborca_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.867388] (-) TimerEvent: {}
+[21.904525] (orca_msgs) StdoutLine: {'line': b'[ 84%] Built target orca_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[21.924785] (orca_msgs) StdoutLine: {'line': b'[ 84%] Built target orca_msgs\n'}
+[21.956255] (orca_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.967562] (-) TimerEvent: {}
+[22.067930] (-) TimerEvent: {}
+[22.168232] (-) TimerEvent: {}
+[22.268517] (-) TimerEvent: {}
+[22.368770] (-) TimerEvent: {}
+[22.469053] (-) TimerEvent: {}
+[22.569338] (-) TimerEvent: {}
+[22.669595] (-) TimerEvent: {}
+[22.769874] (-) TimerEvent: {}
+[22.842555] (orca_msgs) StdoutLine: {'line': b'[ 85%] Built target orca_msgs__py\n'}
+[22.870038] (-) TimerEvent: {}
+[22.889584] (orca_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_final_detection_s.c.o\x1b[0m\n'}
+[22.890012] (orca_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_gate_detection_s.c.o\x1b[0m\n'}
+[22.890219] (orca_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_depth_s.c.o\x1b[0m\n'}
+[22.970159] (-) TimerEvent: {}
+[23.034550] (orca_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_failsafe_trigger_s.c.o\x1b[0m\n'}
+[23.036973] (orca_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_flare_sequence_s.c.o\x1b[0m\n'}
+[23.044170] (orca_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_control_s.c.o\x1b[0m\n'}
+[23.070307] (-) TimerEvent: {}
+[23.139053] (orca_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_proximity_s.c.o\x1b[0m\n'}
+[23.141767] (orca_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/_orca_attitude_s.c.o\x1b[0m\n'}
+[23.170472] (-) TimerEvent: {}
+[23.263198] (orca_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library liborca_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[23.270568] (-) TimerEvent: {}
+[23.317239] (orca_msgs) StdoutLine: {'line': b'[ 94%] Built target orca_msgs__rosidl_generator_py\n'}
+[23.341902] (orca_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.343320] (orca_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.343539] (orca_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/orca_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.370727] (-) TimerEvent: {}
+[23.471184] (-) TimerEvent: {}
+[23.495532] (orca_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.496811] (orca_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.501910] (orca_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.530154] (orca_msgs) StdoutLine: {'line': b'[100%] Built target orca_msgs_s__rosidl_typesupport_introspection_c\n'}
+[23.530923] (orca_msgs) StdoutLine: {'line': b'[100%] Built target orca_msgs_s__rosidl_typesupport_c\n'}
+[23.542724] (orca_msgs) StdoutLine: {'line': b'[100%] Built target orca_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[23.563450] (orca_msgs) CommandEnded: {'returncode': 0}
+[23.564117] (orca_msgs) JobProgress: {'identifier': 'orca_msgs', 'progress': 'install'}
+[23.564610] (orca_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riovaldo/orca_ws/build/orca_msgs'], 'cwd': '/home/riovaldo/orca_ws/build/orca_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/orca_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/riovaldo/orca_ws/install/mavpy:/opt/ros/jazzy'}), 'shell': False}
+[23.571280] (-) TimerEvent: {}
+[23.578653] (orca_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.579162] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/rosidl_interfaces/orca_msgs\n'}
+[23.579515] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.json\n'}
+[23.579908] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.json\n'}
+[23.580244] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.json\n'}
+[23.580579] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.json\n'}
+[23.580860] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.json\n'}
+[23.581243] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.json\n'}
+[23.581593] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.json\n'}
+[23.581946] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.json\n'}
+[23.582295] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.582658] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.583030] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/flare_sequence.h\n'}
+[23.583391] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_proximity.h\n'}
+[23.583768] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.584142] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/gate_detection.h\n'}
+[23.584521] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/failsafe_trigger.h\n'}
+[23.584890] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/final_detection.h\n'}
+[23.585248] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.585597] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__functions.h\n'}
+[23.586032] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__functions.h\n'}
+[23.586416] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.c\n'}
+[23.586752] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.c\n'}
+[23.587156] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__functions.c\n'}
+[23.587636] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.c\n'}
+[23.588084] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.h\n'}
+[23.588507] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__functions.c\n'}
+[23.588808] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__description.c\n'}
+[23.589082] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.c\n'}
+[23.589365] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__functions.h\n'}
+[23.589628] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__functions.c\n'}
+[23.589887] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.h\n'}
+[23.590145] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__struct.h\n'}
+[23.590409] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.h\n'}
+[23.590669] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.c\n'}
+[23.590926] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.h\n'}
+[23.591184] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__struct.h\n'}
+[23.591456] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__description.c\n'}
+[23.591918] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__struct.h\n'}
+[23.592187] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.h\n'}
+[23.592462] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__functions.c\n'}
+[23.592721] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__functions.h\n'}
+[23.593077] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__description.c\n'}
+[23.593368] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.h\n'}
+[23.593655] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__struct.h\n'}
+[23.594011] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__description.c\n'}
+[23.594298] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__struct.h\n'}
+[23.594566] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.c\n'}
+[23.594829] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__description.c\n'}
+[23.595238] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.h\n'}
+[23.595524] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__functions.c\n'}
+[23.595808] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__struct.h\n'}
+[23.596088] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__description.c\n'}
+[23.596376] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__functions.h\n'}
+[23.596745] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__functions.c\n'}
+[23.597033] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__description.c\n'}
+[23.597345] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__functions.c\n'}
+[23.597610] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.h\n'}
+[23.597993] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__description.c\n'}
+[23.598250] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__struct.h\n'}
+[23.598629] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__functions.h\n'}
+[23.598894] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.c\n'}
+[23.599154] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__functions.h\n'}
+[23.599496] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.c\n'}
+[23.599758] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__functions.c\n'}
+[23.600018] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__functions.h\n'}
+[23.600276] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__struct.h\n'}
+[23.600542] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_depth.h\n'}
+[23.600801] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_attitude.h\n'}
+[23.601206] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_control.h\n'}
+[23.601481] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/library_path.sh\n'}
+[23.601732] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/library_path.dsv\n'}
+[23.602018] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_c.so\n'}
+[23.602266] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_c.so" to ""\n'}
+[23.602651] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.602912] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.603171] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.603443] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_fastrtps_c.h\n'}
+[23.603703] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_fastrtps_c.h\n'}
+[23.603963] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[23.604222] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_fastrtps_c.h\n'}
+[23.604491] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[23.604748] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_fastrtps_c.h\n'}
+[23.605002] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_fastrtps_c.h\n'}
+[23.605262] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_fastrtps_c.h\n'}
+[23.605573] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.605832] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[23.606088] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.606375] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.606644] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.606926] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.607216] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.607505] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.c\n'}
+[23.608065] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.c\n'}
+[23.608348] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.c\n'}
+[23.608686] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.c\n'}
+[23.608947] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_introspection_c.h\n'}
+[23.609312] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.c\n'}
+[23.609620] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_introspection_c.h\n'}
+[23.609781] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_introspection_c.h\n'}
+[23.609992] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_introspection_c.h\n'}
+[23.610125] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.c\n'}
+[23.610254] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_introspection_c.h\n'}
+[23.610427] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_introspection_c.h\n'}
+[23.610586] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_introspection_c.h\n'}
+[23.610712] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.c\n'}
+[23.610837] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.c\n'}
+[23.610964] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_introspection_c.h\n'}
+[23.611091] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_c.so\n'}
+[23.611215] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.611394] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_c.so\n'}
+[23.611520] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_c.so" to ""\n'}
+[23.611684] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.611855] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.611981] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/gate_detection.hpp\n'}
+[23.612109] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_control.hpp\n'}
+[23.612229] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_depth.hpp\n'}
+[23.612372] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/final_detection.hpp\n'}
+[23.612601] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/failsafe_trigger.hpp\n'}
+[23.612747] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.613007] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.613160] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__traits.hpp\n'}
+[23.613293] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__struct.hpp\n'}
+[23.613440] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__builder.hpp\n'}
+[23.613567] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__builder.hpp\n'}
+[23.613719] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__struct.hpp\n'}
+[23.613920] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__builder.hpp\n'}
+[23.614048] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.hpp\n'}
+[23.614173] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__traits.hpp\n'}
+[23.614304] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.hpp\n'}
+[23.614448] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__traits.hpp\n'}
+[23.614667] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__builder.hpp\n'}
+[23.614792] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__struct.hpp\n'}
+[23.614913] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__builder.hpp\n'}
+[23.615032] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__struct.hpp\n'}
+[23.615151] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__traits.hpp\n'}
+[23.615275] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__traits.hpp\n'}
+[23.615424] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__builder.hpp\n'}
+[23.615576] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.hpp\n'}
+[23.615704] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.hpp\n'}
+[23.615831] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__struct.hpp\n'}
+[23.615956] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__struct.hpp\n'}
+[23.616082] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__traits.hpp\n'}
+[23.616208] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__traits.hpp\n'}
+[23.616466] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__struct.hpp\n'}
+[23.616622] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.hpp\n'}
+[23.616775] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__traits.hpp\n'}
+[23.616898] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__builder.hpp\n'}
+[23.617037] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__struct.hpp\n'}
+[23.617180] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__builder.hpp\n'}
+[23.617351] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.hpp\n'}
+[23.617497] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.hpp\n'}
+[23.617640] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.hpp\n'}
+[23.617784] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_proximity.hpp\n'}
+[23.617928] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/orca_attitude.hpp\n'}
+[23.618069] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/flare_sequence.hpp\n'}
+[23.618216] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.618384] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.618529] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.618674] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.618951] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619088] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619266] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619428] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619568] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/dds_fastrtps\n'}
+[23.619705] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619842] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.619995] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.620140] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.620296] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.620446] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.620595] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs\n'}
+[23.620742] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg\n'}
+[23.620888] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail\n'}
+[23.621031] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.621177] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__type_support.cpp\n'}
+[23.621347] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__type_support.cpp\n'}
+[23.621502] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__type_support.cpp\n'}
+[23.621656] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.621807] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__type_support.cpp\n'}
+[23.621960] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__type_support.cpp\n'}
+[23.622114] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/failsafe_trigger__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.622267] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/gate_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.622427] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_control__type_support.cpp\n'}
+[23.622579] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.622735] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/flare_sequence__type_support.cpp\n'}
+[23.622890] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_depth__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.623053] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_attitude__type_support.cpp\n'}
+[23.623266] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/orca_proximity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.623604] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/include/orca_msgs/orca_msgs/msg/detail/final_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.623777] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[23.623916] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.624051] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_cpp.so\n'}
+[23.624194] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[23.624350] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/pythonpath.sh\n'}
+[23.624491] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/pythonpath.dsv\n'}
+[23.624675] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info\n'}
+[23.624814] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[23.624960] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[23.625104] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[23.625250] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[23.625423] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs\n'}
+[23.625572] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[23.625718] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[23.625882] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.626107] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/_orca_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.626264] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so\n'}
+[23.626607] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[23.626762] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg\n'}
+[23.626917] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence_s.c\n'}
+[23.627071] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth.py\n'}
+[23.627223] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth_s.c\n'}
+[23.627401] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection.py\n'}
+[23.627660] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity_s.c\n'}
+[23.627811] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude_s.c\n'}
+[23.627963] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence.py\n'}
+[23.628117] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/__init__.py\n'}
+[23.628269] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection_s.c\n'}
+[23.628542] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection.py\n'}
+[23.628696] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger.py\n'}
+[23.628851] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger_s.c\n'}
+[23.629088] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude.py\n'}
+[23.629247] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control.py\n'}
+[23.629424] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity.py\n'}
+[23.629629] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control_s.c\n'}
+[23.629769] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection_s.c\n'}
+[23.629909] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/__init__.py\n'}
+[23.671361] (-) TimerEvent: {}
+[23.687205] (orca_msgs) StdoutLine: {'line': b"Listing '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs'...\n"}
+[23.687483] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/__init__.py'...\n"}
+[23.687588] (orca_msgs) StdoutLine: {'line': b"Listing '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg'...\n"}
+[23.687662] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/__init__.py'...\n"}
+[23.687761] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_failsafe_trigger.py'...\n"}
+[23.687837] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_final_detection.py'...\n"}
+[23.687908] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_flare_sequence.py'...\n"}
+[23.687978] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_gate_detection.py'...\n"}
+[23.688049] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_attitude.py'...\n"}
+[23.688118] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_control.py'...\n"}
+[23.688188] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_depth.py'...\n"}
+[23.688270] (orca_msgs) StdoutLine: {'line': b"Compiling '/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/msg/_orca_proximity.py'...\n"}
+[23.694034] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[23.694294] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.694435] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[23.694666] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.694844] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so\n'}
+[23.695099] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages/orca_msgs/orca_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[23.695289] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_py.so\n'}
+[23.695831] (orca_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/riovaldo/orca_ws/install/orca_msgs/lib/liborca_msgs__rosidl_generator_py.so" to ""\n'}
+[23.696001] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust\n'}
+[23.696093] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/Cargo.toml\n'}
+[23.696204] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src\n'}
+[23.696291] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg.rs\n'}
+[23.696445] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/lib.rs\n'}
+[23.696549] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg\n'}
+[23.696637] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/src/msg/rmw.rs\n'}
+[23.696785] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/rust/build.rs\n'}
+[23.696937] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.idl\n'}
+[23.697020] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.idl\n'}
+[23.697093] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.idl\n'}
+[23.697231] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.idl\n'}
+[23.697367] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.idl\n'}
+[23.697443] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.idl\n'}
+[23.697557] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.idl\n'}
+[23.697638] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.idl\n'}
+[23.697784] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FinalDetection.msg\n'}
+[23.697884] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/GateDetection.msg\n'}
+[23.697963] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaDepth.msg\n'}
+[23.698045] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaAttitude.msg\n'}
+[23.698161] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaProximity.msg\n'}
+[23.698255] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/OrcaControl.msg\n'}
+[23.698408] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FlareSequence.msg\n'}
+[23.698525] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/msg/FailsafeTrigger.msg\n'}
+[23.698619] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/package_run_dependencies/orca_msgs\n'}
+[23.698730] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/parent_prefix_path/orca_msgs\n'}
+[23.698831] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/ament_prefix_path.sh\n'}
+[23.698901] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/ament_prefix_path.dsv\n'}
+[23.699012] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/path.sh\n'}
+[23.699084] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/environment/path.dsv\n'}
+[23.699150] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.bash\n'}
+[23.699217] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.sh\n'}
+[23.699350] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.zsh\n'}
+[23.699433] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/local_setup.dsv\n'}
+[23.699507] (orca_msgs) StdoutLine: {'line': b'-- Installing: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/package.dsv\n'}
+[23.699587] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/ament_index/resource_index/packages/orca_msgs\n'}
+[23.699669] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cExport.cmake\n'}
+[23.699749] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.699831] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.699912] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.699994] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.700076] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.700161] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cExport.cmake\n'}
+[23.700247] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.700339] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_cppExport.cmake\n'}
+[23.700421] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.700504] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.700586] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.700667] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.700748] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[23.700882] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.701023] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_pyExport.cmake\n'}
+[23.701179] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/export_orca_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.701605] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[23.702055] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.702263] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.702361] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.702459] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.702743] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.702838] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.702930] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[23.703019] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgsConfig.cmake\n'}
+[23.703357] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/cmake/orca_msgsConfig-version.cmake\n'}
+[23.703463] (orca_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/riovaldo/orca_ws/install/orca_msgs/share/orca_msgs/package.xml\n'}
+[23.703597] (orca_msgs) CommandEnded: {'returncode': 0}
+[23.718006] (orca_msgs) JobEnded: {'identifier': 'orca_msgs', 'rc': 0}
+[23.718816] (mavpy) JobStarted: {'identifier': 'mavpy'}
+[23.771466] (-) TimerEvent: {}
+[23.871749] (-) TimerEvent: {}
+[23.972029] (-) TimerEvent: {}
+[24.072314] (-) TimerEvent: {}
+[24.172601] (-) TimerEvent: {}
+[24.272908] (-) TimerEvent: {}
+[24.373207] (-) TimerEvent: {}
+[24.473498] (-) TimerEvent: {}
+[24.516280] (mavpy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mavpy', 'build', '--build-base', '/home/riovaldo/orca_ws/build/mavpy/build', 'install', '--record', '/home/riovaldo/orca_ws/build/mavpy/install.log', '--install-scripts', '$base/lib/mavpy', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/riovaldo/orca_ws/src/mavpy', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/riovaldo/ardupilot_gazebo/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'bef2e545-742a-4a2f-88d7-3122527a89e0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/riovaldo/orca_ws/install/auv_description/share', 'USER': 'riovaldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riovaldo/orca_ws/install/orca_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/riovaldo', 'OLDPWD': '/home/riovaldo', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2387', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3180', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riovaldo/orca_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'riovaldo', 'JOURNAL_STREAM': '10:17862', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riovaldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/riovaldo/.local/bin:/home/riovaldo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riovaldo:@/tmp/.ICE-unix/2354,unix/riovaldo:/tmp/.ICE-unix/2354', 'INVOCATION_ID': '0285fd43714443ecb8b9cc4f20e1b98c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y3W0W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/riovaldo/orca_ws/install/mavpy:/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bdea7c9-6910-43dc-9434-8ace81f8a069', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riovaldo/orca_ws/build/mavpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riovaldo/orca_ws/build/mavpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/orca_msgs/lib/python3.12/site-packages:/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/riovaldo/orca_ws/install/orca_msgs:/home/riovaldo/orca_ws/install/auv_description:/home/riovaldo/orca_ws/install/auv_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[24.573599] (-) TimerEvent: {}
+[24.673908] (-) TimerEvent: {}
+[24.771755] (mavpy) StdoutLine: {'line': b'running egg_info\n'}
+[24.773997] (-) TimerEvent: {}
+[24.790707] (mavpy) StdoutLine: {'line': b'writing ../../build/mavpy/mavpy.egg-info/PKG-INFO\n'}
+[24.791233] (mavpy) StdoutLine: {'line': b'writing dependency_links to ../../build/mavpy/mavpy.egg-info/dependency_links.txt\n'}
+[24.791562] (mavpy) StdoutLine: {'line': b'writing entry points to ../../build/mavpy/mavpy.egg-info/entry_points.txt\n'}
+[24.791699] (mavpy) StdoutLine: {'line': b'writing requirements to ../../build/mavpy/mavpy.egg-info/requires.txt\n'}
+[24.791785] (mavpy) StdoutLine: {'line': b'writing top-level names to ../../build/mavpy/mavpy.egg-info/top_level.txt\n'}
+[24.828498] (mavpy) StdoutLine: {'line': b"reading manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'\n"}
+[24.829293] (mavpy) StdoutLine: {'line': b"writing manifest file '../../build/mavpy/mavpy.egg-info/SOURCES.txt'\n"}
+[24.829733] (mavpy) StdoutLine: {'line': b'running build\n'}
+[24.829871] (mavpy) StdoutLine: {'line': b'running build_py\n'}
+[24.830388] (mavpy) StdoutLine: {'line': b'running install\n'}
+[24.837271] (mavpy) StdoutLine: {'line': b'running install_lib\n'}
+[24.857446] (mavpy) StdoutLine: {'line': b'running install_data\n'}
+[24.857732] (mavpy) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.874086] (-) TimerEvent: {}
+[24.877311] (mavpy) StdoutLine: {'line': b"removing '/home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info' (and everything under it)\n"}
+[24.877697] (mavpy) StdoutLine: {'line': b'Copying ../../build/mavpy/mavpy.egg-info to /home/riovaldo/orca_ws/install/mavpy/lib/python3.12/site-packages/mavpy-0.1.0-py3.12.egg-info\n'}
+[24.878517] (mavpy) StdoutLine: {'line': b'running install_scripts\n'}
+[24.974211] (-) TimerEvent: {}
+[25.004602] (mavpy) StdoutLine: {'line': b'Installing control_bridge script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy\n'}
+[25.005017] (mavpy) StdoutLine: {'line': b'Installing keyboard script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy\n'}
+[25.005388] (mavpy) StdoutLine: {'line': b'Installing test_control script to /home/riovaldo/orca_ws/install/mavpy/lib/mavpy\n'}
+[25.006023] (mavpy) StdoutLine: {'line': b"writing list of installed files to '/home/riovaldo/orca_ws/build/mavpy/install.log'\n"}
+[25.035274] (mavpy) CommandEnded: {'returncode': 0}
+[25.041056] (mavpy) JobEnded: {'identifier': 'mavpy', 'rc': 0}
+[25.041956] (-) EventReactorShutdown: {}

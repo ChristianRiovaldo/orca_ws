@@ -210,16 +210,16 @@ CMakeFiles/orca_msgs__rosidl_generator_py.dir/rosidl_generator_py/orca_msgs/msg/
  /usr/include/python3.12/cpython/pyfpe.h \
  /usr/include/python3.12/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/ndarrayobject.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/ndarraytypes.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/npy_common.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/numpyconfig.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/_numpyconfig.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/npy_endian.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/npy_cpu.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/utils.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+ /home/riovaldo/.local/lib/python3.12/site-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__struct.h \
  /home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_c/orca_msgs/msg/detail/orca_attitude__functions.h \

@@ -9,7 +9,8 @@
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaAttitude.idl",
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaProximity.idl",
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/OrcaControl.idl",
-    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/FlareSequence.idl"
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/FlareSequence.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs:msg/FailsafeTrigger.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -37,7 +38,8 @@
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaAttitude.idl",
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaProximity.idl",
     "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/OrcaControl.idl",
-    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FlareSequence.idl"
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FlareSequence.idl",
+    "/home/riovaldo/orca_ws/build/orca_msgs/rosidl_adapter/orca_msgs/msg/FailsafeTrigger.idl"
   ],
   "type_description_tuples": [
     "msg/FinalDetection.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/FinalDetection.json",
@@ -46,6 +48,7 @@
     "msg/OrcaAttitude.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/OrcaAttitude.json",
     "msg/OrcaProximity.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/OrcaProximity.json",
     "msg/OrcaControl.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/OrcaControl.json",
-    "msg/FlareSequence.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json"
+    "msg/FlareSequence.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/FlareSequence.json",
+    "msg/FailsafeTrigger.idl:/home/riovaldo/orca_ws/build/orca_msgs/rosidl_generator_type_description/orca_msgs/msg/FailsafeTrigger.json"
   ]
 }
